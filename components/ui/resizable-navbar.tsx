@@ -207,9 +207,9 @@ export const MobileNav = ({
     <motion.div
       animate={{
         backdropFilter: visible ? "blur(12px)" : "none",
-        paddingRight: visible ? "12px" : "0px",
-        paddingLeft: visible ? "12px" : "0px",
-        borderRadius: visible ? "10px" : "0",
+        paddingRight: visible ? "16px" : "0px",
+        paddingLeft: visible ? "16px" : "0px",
+        borderRadius: visible ? "100px" : "0",
         y: visible ? 12 : 0,
       }}
       transition={{
