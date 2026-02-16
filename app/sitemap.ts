@@ -9,9 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: new Date(), priority: 1 },
     { url: `${baseUrl}/services`, lastModified: new Date(), priority: 0.8 },
-    { url: `${baseUrl}/tarifs`, lastModified: new Date(), priority: 0.7 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.8 },
-    { url: `${baseUrl}/blog`, lastModified: new Date(), priority: 0.6 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), priority: 0.7 },
   ];
 
   // Pages services principales (priorité haute) - seulement ceux avec richTextContent
@@ -39,8 +38,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
-    priority: 0.6,
+    priority: 0.7,
   }));
 
-  return [...staticPages, ...mainServicePages, ...geoServicePages, ...blogPages];
+  return [
+    ...staticPages,
+    ...mainServicePages,
+    ...geoServicePages,
+    ...blogPages,
+  ];
 }
