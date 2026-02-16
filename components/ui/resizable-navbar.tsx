@@ -218,7 +218,7 @@ export const MobileNav = ({
         damping: 50,
       }}
       className={cn(
-        "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between px-0 py-4 lg:hidden",
+        "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between px-0 py-5 lg:hidden",
         visible && "bg-[#0A100D]/90",
         isHomePage && !visible && "bg-transparent",
         isLightTheme && "bg-white border-b border-gray-dark/15 max-w-full",
@@ -282,7 +282,7 @@ MobileNavMenuProps) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className={cn(
-            "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-t-lg rounded-b-4xl bg-black px-4 pt-8 pb-4",
+            "absolute inset-x-0 top-18 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-4xl bg-black p-6",
             className
           )}
         >

@@ -185,7 +185,7 @@
 
 .rich-text ul li::before {
   content: "";
-  @apply absolute -left-5 top-[0.6em] w-2 h-2 rounded-full bg-gray-dark;
+  @apply absolute -left-5 top-[0.6em] w-[6px] h-[6px] rounded-full bg-black;
 }
 
 .rich-text ol li {
@@ -193,7 +193,7 @@
 }
 
 .rich-text ol li::marker {
-  @apply text-gray-dark font-semibold;
+  @apply text-gray-dark font-medium;
 }
 
 .rich-text a {

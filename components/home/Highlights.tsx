@@ -38,7 +38,7 @@ export default function Highlights() {
           {highlights.map((item) => (
             <div
               key={item.value}
-              className="flex flex-col rounded-xl bg-gray p-8 transition-all duration-500 hover:bg-yellow"
+              className="flex flex-col items-center sm:items-start text-center sm:text-left rounded-xl bg-gray p-8 transition-all duration-500 hover:bg-yellow"
             >
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-black">
                 <item.icon className="h-5 w-5 text-white" />

@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1320px] px-5">
         <div className="grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-6">
           {/* Col 1 - About */}
-          <div className="sm:col-span-2 lg:col-span-2">
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left sm:col-span-2">
             <Link href="/">
               <Image
                 src="/logo-2.svg"
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
 
           {/* Col 2 - Navigation */}
-          <div className="pt-9">
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left pt-9">
             <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Navigation
             </p>
@@ -88,7 +88,7 @@ export default function Footer() {
           </div>
 
           {/* Col 3 - Services */}
-          <div className="pt-9">
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left pt-9">
             <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Services
             </p>
@@ -107,7 +107,7 @@ export default function Footer() {
           </div>
 
           {/* Col 4 - Zone d'intervention Hérault */}
-          <div className="pt-9">
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left pt-9">
             <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Hérault (34)
             </p>
@@ -134,7 +134,7 @@ export default function Footer() {
           </div>
 
           {/* Col 5 - Zone d'intervention Gard */}
-          <div className="pt-9">
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left pt-9">
             <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Gard (30)
             </p>
@@ -176,7 +176,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-yellow transition-colors hover:text-white hover:underline underline-offset-4"
             >
-              VizionWeb
+              Vizion Web
             </a>
           </p>
         </div>

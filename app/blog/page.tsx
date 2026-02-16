@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
-      <section className="pt-32 lg:pt-40">
+      <section className="pt-28 lg:pt-40">
         <div className="max-w-xl mx-auto px-5">
           <SectionHeader
             as="h1"
@@ -21,7 +21,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="bg-white py-16 lg:py-20">
+      <section className="bg-white py-10 lg:py-20">
         <div className="mx-auto max-w-[1320px] px-5">
           <BlogFilters />
         </div>

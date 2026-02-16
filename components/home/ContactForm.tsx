@@ -29,35 +29,35 @@ export default function ContactForm() {
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
-    // defaultValues: {
-    //   name: "",
-    //   email: "",
-    //   phone: "",
-    //   vehicle: "",
-    //   vehicleYear: "",
-    //   glass: "",
-    //   insurance: "",
-    //   location: "",
-    //   city: "",
-    //   address: "",
-    //   message: "",
-    //   consent: undefined,
-    // },
     defaultValues: {
-      name: "Jean Dupont",
-      email: "dxavero@gmail.com",
-      phone: "0749571480",
-      vehicle: "Renault Clio",
-      vehicleYear: "2019",
-      glass: "Pare-brise avant",
-      insurance: "Oui, avec bris de glace",
-      location: "À domicile",
-      city: "Montpellier, 34000",
-      address: "12 rue de la Paix",
-      message:
-        "Impact sur le pare-brise côté conducteur, disponible en semaine le matin.",
+      name: "",
+      email: "",
+      phone: "",
+      vehicle: "",
+      vehicleYear: "",
+      glass: "",
+      insurance: "",
+      location: "",
+      city: "",
+      address: "",
+      message: "",
       consent: undefined,
     },
+    // defaultValues: {
+    //   name: "Jean Dupont",
+    //   email: "dxavero@gmail.com",
+    //   phone: "0749571480",
+    //   vehicle: "Renault Clio",
+    //   vehicleYear: "2019",
+    //   glass: "Pare-brise avant",
+    //   insurance: "Oui, avec bris de glace",
+    //   location: "À domicile",
+    //   city: "Montpellier, 34000",
+    //   address: "12 rue de la Paix",
+    //   message:
+    //     "Impact sur le pare-brise côté conducteur, disponible en semaine le matin.",
+    //   consent: undefined,
+    // },
   });
 
   const glass = watch("glass");
@@ -255,21 +255,41 @@ export default function ContactForm() {
           <FieldError message={errors.consent?.message} />
         </div>
 
-        <Button
-          type="submit"
-          variant="black"
-          className="group w-fit pl-6 pr-3"
-          disabled={isPending}
-        >
-          {isPending ? "Envoi en cours..." : "Envoyer ma demande"}
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow transition-transform duration-300 group-hover:-rotate-45">
-            {isPending ? (
-              <Loader2 className="size-5 animate-spin text-black" />
-            ) : (
-              <ArrowRight className="size-5! text-black" />
-            )}
-          </span>
-        </Button>
+        <div className="md:hidden">
+          <Button
+            type="submit"
+            variant="black"
+            size="sm"
+            className="group w-fit pl-4 pr-2"
+            disabled={isPending}
+          >
+            {isPending ? "Envoi en cours..." : "Envoyer ma demande"}
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow transition-transform duration-300 group-hover:-rotate-45">
+              {isPending ? (
+                <Loader2 className="size-4 animate-spin text-black" />
+              ) : (
+                <ArrowRight className="size-4! text-black" />
+              )}
+            </span>
+          </Button>
+        </div>
+        <div className="hidden md:block">
+          <Button
+            type="submit"
+            variant="black"
+            className="group w-fit pl-6 pr-3"
+            disabled={isPending}
+          >
+            {isPending ? "Envoi en cours..." : "Envoyer ma demande"}
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow transition-transform duration-300 group-hover:-rotate-45">
+              {isPending ? (
+                <Loader2 className="size-5 animate-spin text-black" />
+              ) : (
+                <ArrowRight className="size-5! text-black" />
+              )}
+            </span>
+          </Button>
+        </div>
       </form>
     </>
   );

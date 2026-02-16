@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
-      <section className="pt-40 pb-20">
+      <section className="pt-28 pb-20">
         <div className="mx-auto max-w-[1320px] px-5">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div className="max-w-xl ">
