@@ -10,12 +10,21 @@ const navigation = [
 ];
 
 const services = [
-  { name: "Remplacement pare-brise", slug: "remplacement-pare-brise-montpellier" },
-  { name: "Réparation d'impact", slug: "reparation-impact-pare-brise-montpellier" },
+  {
+    name: "Remplacement pare-brise",
+    slug: "remplacement-pare-brise-montpellier",
+  },
+  {
+    name: "Réparation d'impact",
+    slug: "reparation-impact-pare-brise-montpellier",
+  },
   { name: "Vitre de voiture", slug: "remplacement-vitre-voiture-montpellier" },
   { name: "Lunette arrière", slug: "remplacement-lunette-arriere-montpellier" },
   { name: "Calibrage ADAS", slug: "calibrage-camera-adas-montpellier" },
-  { name: "Prise en charge assurance", slug: "prise-en-charge-assurance-pare-brise" },
+  {
+    name: "Prise en charge assurance",
+    slug: "prise-en-charge-assurance-pare-brise",
+  },
 ];
 
 const citiesHerault = citiesData.filter((city) => city.department === "34");
@@ -45,11 +54,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:Edenglassparebrise@gmail.com"
+                  href="mailto:contact@edenglass.fr"
                   className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
                 >
                   <Mail className="h-4 w-4 shrink-0" />
-                  Edenglassparebrise@gmail.com
+                  contact@edenglass.fr
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-white/60">

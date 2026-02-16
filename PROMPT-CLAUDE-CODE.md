@@ -13,11 +13,12 @@ Lis attentivement le fichier `CONTEXT.md` à la racine du projet. C'est ta sourc
 ### 1. Informations de contact (PRIORITÉ HAUTE)
 
 Remplace partout dans le code :
+
 - **Ancien téléphone** : `+33 7 67 35 33 47` ou `07 67 35 33 47`
 - **Nouveau téléphone** : `07 49 57 14 80` (format lien : `tel:+33749571480`)
 
 - **Ancien email** : `contact@edenglass.fr`
-- **Nouveau email** : `Edenglassparebrise@gmail.com`
+- **Nouveau email** : `contact@edenglass.fr`
 
 - **Anciens horaires** : `Lun-Ven 8h-19h, Sam 9h-17h`
 - **Nouveaux horaires** : `7j/7 de 9h à 19h`
@@ -25,12 +26,14 @@ Remplace partout dans le code :
 ### 2. Zone d'intervention (PRIORITÉ HAUTE)
 
 Le site couvre maintenant **2 départements** :
+
 - Hérault (34) - Montpellier et environs
 - Gard (30) - Nîmes et environs
 
 Mets à jour :
+
 - Le Hero : titre H1 → "Remplacement de Pare-Brise à Montpellier et dans le Gard"
-- Le sous-titre Hero → "Intervention rapide à domicile • Franchise offerte jusqu'à 300€* • Pas d'avance de frais"
+- Le sous-titre Hero → "Intervention rapide à domicile • Franchise offerte jusqu'à 300€\* • Pas d'avance de frais"
 - La section À Propos : mentionner l'Hérault ET le Gard
 - La section Reassurance : mentionner les deux départements
 - Le Footer : Zone → "Hérault (34) & Gard (30)"
@@ -39,6 +42,7 @@ Mets à jour :
 ### 3. Points forts / Arguments commerciaux
 
 Mets à jour la section À Propos avec ces nouveaux points :
+
 ```
 ✓ Intervention à domicile ou sur lieu de travail
 ✓ Tous véhicules : voitures, camions, engins agricoles
@@ -50,6 +54,7 @@ Mets à jour la section À Propos avec ces nouveaux points :
 ### 4. Highlights Section (4 cards)
 
 Mets à jour les 4 cards :
+
 ```
 Card 1: "2h" - Temps moyen d'intervention pour un remplacement complet
 Card 2: "7j/7" - Service disponible tous les jours de 9h à 19h
@@ -60,6 +65,7 @@ Card 4: "0€" - Pas d'avance de frais avec votre assurance
 ### 5. Services Section
 
 Mets à jour les services (6 au lieu de 5) :
+
 1. **Remplacement de pare-brise** - Ajouter mention "tous véhicules" et "à domicile"
 2. **Réparation d'impact** - OK tel quel
 3. **Tous vitrages automobiles** (remplace "Vitres latérales")
@@ -72,6 +78,7 @@ Contenu détaillé dans CONTEXT.md section "Services Section".
 ### 6. FAQ Section
 
 Mets à jour avec 7 questions (au lieu de 6) :
+
 - Q2 : Franchise offerte jusqu'à 300€ max
 - Q3 : Mentionner "clients non assurés" acceptés
 - Q5 : NOUVELLE - Types de véhicules (voitures, camions, engins agricoles)
@@ -82,13 +89,15 @@ Contenu détaillé dans CONTEXT.md section "FAQ Section".
 ### 7. Footer
 
 Mets à jour :
+
 - Colonne Services : ajouter "Calibrage ADAS"
 - Colonne Contact : nouvelles infos (tel, email, horaires, zone)
-- Mention légale : "*Franchise offerte jusqu'à 300€ maximum..."
+- Mention légale : "\*Franchise offerte jusqu'à 300€ maximum..."
 
 ### 8. Formulaire de Contact
 
 Ajoute les nouveaux champs :
+
 ```tsx
 // Nouveaux champs à ajouter :
 - "Êtes-vous assuré ?" (select: "Oui, avec bris de glace" / "Oui, sans bris de glace" / "Non assuré")
@@ -101,11 +110,15 @@ Mets à jour le select "Type de véhicule" avec des exemples incluant camions et
 ### 9. SEO / Metadata
 
 Mets à jour dans `layout.tsx` ou `page.tsx` :
+
 ```typescript
 export const metadata = {
-  title: "EDEN GLASS | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
-  description: "Expert en remplacement et réparation de pare-brise dans l'Hérault et le Gard. Intervention à domicile 7j/7, franchise offerte jusqu'à 300€. ☎️ 07 49 57 14 80",
-  keywords: "remplacement pare-brise Montpellier, remplacement pare-brise Nîmes, réparation impact, vitrage automobile, franchise offerte, pare-brise Hérault, pare-brise Gard",
+  title:
+    "EDEN GLASS | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
+  description:
+    "Expert en remplacement et réparation de pare-brise dans l'Hérault et le Gard. Intervention à domicile 7j/7, franchise offerte jusqu'à 300€. ☎️ 07 49 57 14 80",
+  keywords:
+    "remplacement pare-brise Montpellier, remplacement pare-brise Nîmes, réparation impact, vitrage automobile, franchise offerte, pare-brise Hérault, pare-brise Gard",
 };
 ```
 
@@ -152,6 +165,7 @@ npm run dev
 ## Validation finale
 
 Après toutes les modifications :
+
 1. `npm run build` doit passer sans erreur
 2. Vérifier visuellement chaque section sur desktop et mobile
 3. Tester le click-to-call sur mobile

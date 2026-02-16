@@ -18,10 +18,8 @@ Template inspiré de : https://towmate-template.framer.website/
 ### Colors
 
 ```css
---color-black: #0A100D
---color-yellow: #FDF567
---color-red: #EA1E05
---color-white: #FFFFFF
+--color-black: #0a100d --color-yellow: #fdf567 --color-red: #ea1e05
+  --color-white: #ffffff;
 ```
 
 ### Typography
@@ -39,7 +37,7 @@ Template inspiré de : https://towmate-template.framer.website/
 ## Informations de Contact
 
 - **Téléphone**: 07 49 57 14 80
-- **Email**: Edenglassparebrise@gmail.com
+- **Email**: contact@edenglass.fr
 - **Horaires**: 9h-19h, 7j/7
 
 ## Zone d'Intervention
@@ -232,7 +230,7 @@ Utiliser Radix UI Accordion.
 **Colonne 4 - Contact**
 
 - Téléphone: 07 49 57 14 80
-- Email: Edenglassparebrise@gmail.com
+- Email: contact@edenglass.fr
 - Horaires: 7j/7 de 9h à 19h
 - Zone: Hérault (34) & Gard (30)
 

@@ -7,6 +7,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -171,8 +172,8 @@ export const NavItems = ({
             isLightTheme
               ? "text-black/70 hover:text-black"
               : isHomeTransparent
-              ? "text-white hover:text-[#FDF567]"
-              : "text-white/70 hover:text-[#FDF567]"
+                ? "text-white hover:text-[#FDF567]"
+                : "text-white/70 hover:text-[#FDF567]"
           )}
           key={`link-${idx}`}
           href={item.link}
@@ -323,16 +324,14 @@ export const NavbarLogo = ({
   const isLightTheme = !isHomePage && !visible;
 
   return (
-    <Link
-      href="/"
-      className="relative z-20 mr-4 flex items-center px-2 py-1 text-lg font-medium"
-    >
-      <span className={isLightTheme ? "text-black" : "text-[#FDF567]"}>
-        EDEN
-      </span>
-      <span className={cn("ml-1", isLightTheme ? "text-black" : "text-white")}>
-        GLASS
-      </span>
+    <Link href="/" className="relative z-20 mr-4 flex items-center px-2 py-1">
+      <Image
+        src="/logo.svg"
+        alt="Eden Glass"
+        width={933}
+        height={218}
+        className={cn("h-5 w-auto", isLightTheme && "brightness-0")}
+      />
     </Link>
   );
 };

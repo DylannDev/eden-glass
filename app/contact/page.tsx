@@ -48,10 +48,7 @@ export default function ContactPage() {
             </div>
 
             {/* Form */}
-            <div className="flex w-full flex-col justify-center lg:w-1/2 lg:shrink-0">
-              <h1 className="mb-8 text-3xl font-medium text-black lg:text-5xl">
-                Demandez votre devis gratuit
-              </h1>
+            <div className="flex w-full flex-col justify-center lg:w-1/2 lg:shrink-0 lg:min-h-[890px]">
               <ContactForm />
             </div>
           </div>
@@ -73,10 +70,10 @@ export default function ContactPage() {
 
             <InfoCard icon={Mail} title="Email">
               <a
-                href="mailto:Edenglassparebrise@gmail.com"
+                href="mailto:contact@edenglass.fr"
                 className="hover:underline underline-offset-4"
               >
-                Edenglassparebrise@gmail.com
+                contact@edenglass.fr
               </a>
             </InfoCard>
 

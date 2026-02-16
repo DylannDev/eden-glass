@@ -1,198 +1,276 @@
 "use client";
 
 import { useState } from "react";
-import * as Select from "@radix-ui/react-select";
-import { ChevronDown, Check, ArrowRight } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { ArrowRight, Loader2, CheckIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-
-const glassOptions = [
-  "Pare-brise avant",
-  "Lunette arrière",
-  "Vitre latérale avant gauche",
-  "Vitre latérale avant droite",
-  "Vitre latérale arrière gauche",
-  "Vitre latérale arrière droite",
-  "Autre vitrage",
-];
-
-const insuranceOptions = [
-  "Oui, avec bris de glace",
-  "Oui, sans bris de glace",
-  "Non assuré",
-];
-
-const locationOptions = ["À domicile", "Sur mon lieu de travail", "Autre lieu"];
-
-function SelectField({
-  label,
-  placeholder,
-  value,
-  onValueChange,
-  options,
-  required = false,
-}: {
-  label: string;
-  placeholder: string;
-  value: string;
-  onValueChange: (v: string) => void;
-  options: string[];
-  required?: boolean;
-}) {
-  return (
-    <div>
-      <Label>{label}</Label>
-      <Select.Root
-        value={value}
-        onValueChange={onValueChange}
-        required={required}
-      >
-        <Select.Trigger className="flex w-full items-center justify-between rounded-lg border border-black/15 px-4 py-3 text-base text-black outline-none transition-colors data-placeholder:text-black/40 focus:border-yellow">
-          <Select.Value placeholder={placeholder} />
-          <Select.Icon>
-            <ChevronDown className="h-4 w-4 text-black/40" />
-          </Select.Icon>
-        </Select.Trigger>
-        <Select.Portal>
-          <Select.Content className="overflow-hidden rounded-lg border border-black/10 bg-white shadow-lg">
-            <Select.Viewport className="p-1">
-              {options.map((option) => (
-                <Select.Item
-                  key={option}
-                  value={option}
-                  className="flex cursor-pointer items-center gap-2 rounded-md px-3 py-2 text-sm text-black outline-none data-highlighted:bg-yellow/10"
-                >
-                  <Select.ItemIndicator>
-                    <Check className="h-4 w-4 text-yellow" />
-                  </Select.ItemIndicator>
-                  <Select.ItemText>{option}</Select.ItemText>
-                </Select.Item>
-              ))}
-            </Select.Viewport>
-          </Select.Content>
-        </Select.Portal>
-      </Select.Root>
-    </div>
-  );
-}
+import FieldError from "@/components/ui/field-error";
+import SelectField from "@/components/home/SelectField";
+import { contactSchema, type ContactFormData } from "@/lib/schemas/contact";
+import {
+  glassOptions,
+  insuranceOptions,
+  locationOptions,
+} from "@/data/contact-options";
+import { sendContactEmail, type ContactFormState } from "@/app/actions/contact";
 
 export default function ContactForm() {
-  const [glass, setGlass] = useState("");
-  const [insurance, setInsurance] = useState("");
-  const [location, setLocation] = useState("");
-  const [consent, setConsent] = useState(false);
+  const [serverState, setServerState] = useState<ContactFormState>(null);
+  const [isPending, setIsPending] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    setValue,
+    watch,
+    formState: { errors },
+  } = useForm<ContactFormData>({
+    resolver: zodResolver(contactSchema),
+    // defaultValues: {
+    //   name: "",
+    //   email: "",
+    //   phone: "",
+    //   vehicle: "",
+    //   vehicleYear: "",
+    //   glass: "",
+    //   insurance: "",
+    //   location: "",
+    //   city: "",
+    //   address: "",
+    //   message: "",
+    //   consent: undefined,
+    // },
+    defaultValues: {
+      name: "Jean Dupont",
+      email: "dxavero@gmail.com",
+      phone: "0749571480",
+      vehicle: "Renault Clio",
+      vehicleYear: "2019",
+      glass: "Pare-brise avant",
+      insurance: "Oui, avec bris de glace",
+      location: "À domicile",
+      city: "Montpellier, 34000",
+      address: "12 rue de la Paix",
+      message:
+        "Impact sur le pare-brise côté conducteur, disponible en semaine le matin.",
+      consent: undefined,
+    },
+  });
+
+  const glass = watch("glass");
+  const insurance = watch("insurance");
+  const location = watch("location");
+  const consent = watch("consent");
+
+  const onSubmit = async (data: ContactFormData) => {
+    setIsPending(true);
+    const formData = new FormData();
+    Object.entries(data).forEach(([key, value]) => {
+      if (value !== undefined && value !== null) {
+        formData.set(key, String(value));
+      }
+    });
+    const result = await sendContactEmail(null, formData);
+    setServerState(result);
+    setIsPending(false);
+  };
+
+  if (serverState?.success) {
+    return (
+      <div className="flex flex-col items-center gap-4 rounded-xl bg-yellow p-8 text-center">
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-black">
+          <CheckIcon className="h-5 w-5 text-white" />
+        </div>
+        <p className="text-lg font-medium text-black">{serverState.message}</p>
+      </div>
+    );
+  }
 
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        // Form submission will be implemented with Resend later
-      }}
-      className="space-y-5"
-    >
-      {/* Row 1: Nom + Email */}
-      <div className="grid gap-5 sm:grid-cols-2">
-        <div>
-          <Label htmlFor="name">Nom complet *</Label>
-          <Input id="name" name="name" type="text" required />
-        </div>
-        <div>
-          <Label htmlFor="email">Email *</Label>
-          <Input id="email" name="email" type="email" required />
-        </div>
-      </div>
+    <>
+      <h1 className="mb-8 text-3xl font-medium text-black lg:text-5xl">
+        Demandez votre devis gratuit
+      </h1>
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+        {/* Server error */}
+        {serverState?.success === false && (
+          <div className="rounded-lg bg-red/10 px-4 py-3 text-sm text-red">
+            {serverState.message}
+          </div>
+        )}
 
-      {/* Row 2: Téléphone + Véhicule */}
-      <div className="grid gap-5 sm:grid-cols-2">
-        <div>
-          <Label htmlFor="phone">Téléphone *</Label>
-          <Input id="phone" name="phone" type="tel" required />
+        {/* Row 1: Nom + Email */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div>
+            <Label htmlFor="name">Nom complet *</Label>
+            <Input
+              id="name"
+              type="text"
+              placeholder="Jean Dupont"
+              {...register("name")}
+              className={errors.name ? "border-red" : ""}
+            />
+            <FieldError message={errors.name?.message} />
+          </div>
+          <div>
+            <Label htmlFor="email">Email *</Label>
+            <Input
+              id="email"
+              type="email"
+              placeholder="jeandupont@gmail.com"
+              {...register("email")}
+              className={errors.email ? "border-red" : ""}
+            />
+            <FieldError message={errors.email?.message} />
+          </div>
         </div>
-        <div>
-          <Label htmlFor="vehicle">Type de véhicule *</Label>
-          <Input
-            id="vehicle"
-            name="vehicle"
-            type="text"
-            required
-            placeholder="ex: Renault Clio 2018"
+
+        {/* Row 2: Téléphone + Véhicule */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div>
+            <Label htmlFor="phone">Téléphone *</Label>
+            <Input
+              id="phone"
+              type="tel"
+              placeholder="07 49 57 14 80"
+              {...register("phone")}
+              className={errors.phone ? "border-red" : ""}
+            />
+            <FieldError message={errors.phone?.message} />
+          </div>
+          <div>
+            <Label htmlFor="vehicle">Marque du véhicule *</Label>
+            <Input
+              id="vehicle"
+              type="text"
+              placeholder="Renault Clio"
+              {...register("vehicle")}
+              className={errors.vehicle ? "border-red" : ""}
+            />
+            <FieldError message={errors.vehicle?.message} />
+          </div>
+        </div>
+
+        {/* Row 3: Année véhicule + Vitre */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div>
+            <Label htmlFor="vehicleYear">Année du véhicule</Label>
+            <Input
+              id="vehicleYear"
+              type="text"
+              placeholder="2018"
+              {...register("vehicleYear")}
+            />
+          </div>
+          <SelectField
+            label="Vitre endommagée *"
+            placeholder="Sélectionnez la vitre"
+            value={glass}
+            onValueChange={(v) =>
+              setValue("glass", v, { shouldValidate: true })
+            }
+            options={glassOptions}
+            error={errors.glass?.message}
           />
         </div>
-      </div>
 
-      {/* Row 3: Vitre + Assurance */}
-      <div className="grid gap-5 sm:grid-cols-2">
-        <SelectField
-          label="Vitre endommagée *"
-          placeholder="Sélectionnez la vitre"
-          value={glass}
-          onValueChange={setGlass}
-          options={glassOptions}
-          required
-        />
-        <SelectField
-          label="Êtes-vous assuré ? *"
-          placeholder="Sélectionnez votre situation"
-          value={insurance}
-          onValueChange={setInsurance}
-          options={insuranceOptions}
-          required
-        />
-      </div>
-
-      {/* Row 4: Lieu + Ville */}
-      <div className="grid gap-5 sm:grid-cols-2">
-        <SelectField
-          label="Lieu d'intervention souhaité *"
-          placeholder="Sélectionnez le lieu"
-          value={location}
-          onValueChange={setLocation}
-          options={locationOptions}
-          required
-        />
-        <div>
-          <Label htmlFor="city">Ville / Code postal *</Label>
-          <Input
-            id="city"
-            name="city"
-            type="text"
-            required
-            placeholder="ex: Montpellier, 34000"
+        {/* Row 4: Assurance + Lieu */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <SelectField
+            label="Êtes-vous assuré ? *"
+            placeholder="Sélectionnez votre situation"
+            value={insurance}
+            onValueChange={(v) =>
+              setValue("insurance", v, { shouldValidate: true })
+            }
+            options={insuranceOptions}
+            error={errors.insurance?.message}
+          />
+          <SelectField
+            label="Lieu d'intervention souhaité *"
+            placeholder="Sélectionnez le lieu"
+            value={location}
+            onValueChange={(v) =>
+              setValue("location", v, { shouldValidate: true })
+            }
+            options={locationOptions}
+            error={errors.location?.message}
           />
         </div>
-      </div>
 
-      {/* Row 5: Message (full width) */}
-      <div>
-        <Label htmlFor="message">Message</Label>
-        <textarea
-          id="message"
-          name="message"
-          rows={4}
-          placeholder="Décrivez votre problème ou précisez vos disponibilités"
-          className="w-full rounded-lg border border-black/15 px-4 py-3 text-base text-black outline-none transition-colors placeholder:text-black/40 focus:border-yellow"
-        />
-      </div>
+        {/* Row 5: Ville + Adresse */}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div>
+            <Label htmlFor="address">Adresse</Label>
+            <Input
+              id="address"
+              type="text"
+              placeholder="12 rue de la Paix"
+              {...register("address")}
+            />
+          </div>
+          <div>
+            <Label htmlFor="city">Ville / Code postal *</Label>
+            <Input
+              id="city"
+              type="text"
+              placeholder="Montpellier, 34000"
+              {...register("city")}
+              className={errors.city ? "border-red" : ""}
+            />
+            <FieldError message={errors.city?.message} />
+          </div>
+        </div>
 
-      {/* Consent + Submit */}
-      <label className="flex items-start gap-3 text-sm text-black/70">
-        <input
-          type="checkbox"
-          required
-          checked={consent}
-          onChange={(e) => setConsent(e.target.checked)}
-          className="mt-0.5 h-4 w-4 shrink-0 accent-yellow"
-        />
-        J&apos;accepte d&apos;être recontacté par EDEN GLASS *
-      </label>
+        {/* Row 6: Message (full width) */}
+        <div>
+          <Label htmlFor="message">Message</Label>
+          <textarea
+            id="message"
+            rows={4}
+            placeholder="Décrivez votre problème ou précisez vos disponibilités"
+            className="w-full rounded-2xl border border-black/15 px-4 py-3 text-base text-black outline-none transition-colors placeholder:text-black/40 focus:border-yellow"
+            {...register("message")}
+          />
+        </div>
 
-      <Button type="submit" variant="black" className="group w-fit pl-6 pr-3">
-        Envoyer ma demande
-        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow transition-transform duration-300 group-hover:-rotate-45">
-          <ArrowRight className="size-5! text-black" />
-        </span>
-      </Button>
-    </form>
+        {/* Consent + Submit */}
+        <div>
+          <label className="flex cursor-pointer items-center gap-2 text-sm text-black">
+            <input
+              type="checkbox"
+              {...register("consent")}
+              className="peer sr-only"
+            />
+            <span
+              className={`mt-0.5 flex h-5.5 w-5.5 shrink-0 items-center justify-center rounded-full border transition-colors ${consent ? "border-black bg-black" : "border-black/30 bg-transparent"}`}
+            >
+              {consent && <CheckIcon className="h-3.5 w-3.5 text-yellow" />}
+            </span>
+            J&apos;accepte d&apos;être recontacté par Eden Glass
+          </label>
+          <FieldError message={errors.consent?.message} />
+        </div>
+
+        <Button
+          type="submit"
+          variant="black"
+          className="group w-fit pl-6 pr-3"
+          disabled={isPending}
+        >
+          {isPending ? "Envoi en cours..." : "Envoyer ma demande"}
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow transition-transform duration-300 group-hover:-rotate-45">
+            {isPending ? (
+              <Loader2 className="size-5 animate-spin text-black" />
+            ) : (
+              <ArrowRight className="size-5! text-black" />
+            )}
+          </span>
+        </Button>
+      </form>
+    </>
   );
 }

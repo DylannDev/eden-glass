@@ -61,7 +61,7 @@ function getStructuredData(
       name: `Eden Glass – ${service.city}`,
       description: service.metaDescription,
       telephone: "+33749571480",
-      email: "Edenglassparebrise@gmail.com",
+      email: "contact@edenglass.fr",
       url: `https://www.edenglass.fr/services/${service.slug}`,
       areaServed: {
         "@type": "City",
@@ -151,22 +151,6 @@ export default async function ServicePage({ params }: ServicePageProps) {
             className="rich-text"
             dangerouslySetInnerHTML={{ __html: service.richTextContent }}
           />
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-yellow py-16">
-        <div className="mx-auto max-w-3xl px-5 text-center">
-          <h2 className="mb-4 text-3xl font-medium text-black lg:text-4xl">
-            Besoin d&apos;un devis gratuit ?
-          </h2>
-          <p className="mb-8 text-lg text-black/70">
-            Contactez-nous pour une intervention rapide dans l&apos;Hérault et
-            le Gard. Franchise offerte jusqu&apos;à 300€*.
-          </p>
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ArrowButton href="/contact" variant="black" />
-          </div>
         </div>
       </section>
 

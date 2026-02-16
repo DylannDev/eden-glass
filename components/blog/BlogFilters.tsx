@@ -17,7 +17,9 @@ import {
 const POSTS_PER_PAGE = 9;
 
 export default function BlogFilters() {
-  const [activeCategory, setActiveCategory] = useState<BlogCategory | "all">("all");
+  const [activeCategory, setActiveCategory] = useState<BlogCategory | "all">(
+    "all"
+  );
   const [currentPage, setCurrentPage] = useState(1);
 
   const filteredPosts =
@@ -30,6 +32,19 @@ export default function BlogFilters() {
     (currentPage - 1) * POSTS_PER_PAGE,
     currentPage * POSTS_PER_PAGE
   );
+
+  function scrollToGrid() {
+    const el = document.getElementById("blog-grid");
+    if (el) {
+      const top = el.getBoundingClientRect().top + window.scrollY - 130;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
+  }
+
+  function handlePageChange(page: number) {
+    setCurrentPage(page);
+    scrollToGrid();
+  }
 
   function handleCategoryChange(category: BlogCategory | "all") {
     setActiveCategory(category);
@@ -55,7 +70,7 @@ export default function BlogFilters() {
   return (
     <>
       {/* Category Filters */}
-      <div className="flex flex-wrap justify-center gap-3 mb-12">
+      <div id="blog-grid" className="flex flex-wrap justify-center gap-3 mb-12">
         <button
           onClick={() => handleCategoryChange("all")}
           className={cn(
@@ -103,9 +118,11 @@ export default function BlogFilters() {
           <PaginationContent>
             <PaginationItem>
               <PaginationPrevious
-                onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className={currentPage === 1 ? "opacity-40 pointer-events-none" : ""}
+                className={
+                  currentPage === 1 ? "opacity-40 pointer-events-none" : ""
+                }
               />
             </PaginationItem>
 
@@ -118,7 +135,7 @@ export default function BlogFilters() {
                 <PaginationItem key={page}>
                   <PaginationLink
                     isActive={currentPage === page}
-                    onClick={() => setCurrentPage(page)}
+                    onClick={() => handlePageChange(page)}
                   >
                     {page}
                   </PaginationLink>
@@ -128,9 +145,15 @@ export default function BlogFilters() {
 
             <PaginationItem>
               <PaginationNext
-                onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                onClick={() =>
+                  handlePageChange(Math.min(totalPages, currentPage + 1))
+                }
                 disabled={currentPage === totalPages}
-                className={currentPage === totalPages ? "opacity-40 pointer-events-none" : ""}
+                className={
+                  currentPage === totalPages
+                    ? "opacity-40 pointer-events-none"
+                    : ""
+                }
               />
             </PaginationItem>
           </PaginationContent>
