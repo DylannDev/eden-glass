@@ -91,7 +91,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <h1 className="mb-8 text-3xl font-medium text-black lg:text-5xl">
+      <h1 className="mb-8 text-2xl font-medium text-black md:text-3xl lg:text-5xl">
         Demandez votre devis gratuit
       </h1>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">

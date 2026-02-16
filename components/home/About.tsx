@@ -24,10 +24,10 @@ export default function About() {
           </div>
 
           <div>
-            <h2 className="mb-6 text-3xl font-medium text-black lg:text-4xl">
+            <h2 className="mb-6 text-2xl font-medium text-black md:text-3xl lg:text-4xl">
               Eden Glass, Expert en Vitrage Automobile
             </h2>
-            <p className="mb-8 text-lg leading-relaxed text-gray-dark">
+            <p className="mb-8 text-base leading-relaxed text-gray-dark md:text-lg">
               Spécialiste du vitrage automobile, nous intervenons rapidement
               dans Montpellier et ses alentours. Nous nous déplaçons directement
               chez vous avec du matériel professionnel et des verres homologués

@@ -58,7 +58,7 @@ export default function FAQ() {
         <Accordion type="single" collapsible>
           {faqs.map((faq, i) => (
             <AccordionItem key={i} value={`faq-${i}`}>
-              <AccordionTrigger className="text-2xl font-medium text-black">
+              <AccordionTrigger className="text-xl sm:text-2xl font-medium text-black">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent>

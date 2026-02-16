@@ -13,10 +13,10 @@ export default function TarifsPage() {
     <>
       <section className="bg-black pt-32 pb-24">
         <div className="mx-auto max-w-3xl px-5 text-center">
-          <h1 className="mb-4 text-4xl font-medium text-white lg:text-5xl">
+          <h1 className="mb-4 text-3xl font-medium text-white md:text-4xl lg:text-5xl">
             Nos tarifs
           </h1>
-          <p className="text-lg text-white/70">
+          <p className="text-base text-white/70 md:text-lg">
             Des tarifs transparents pour tous nos services de vitrage
             automobile.
           </p>

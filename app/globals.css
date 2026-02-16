@@ -147,11 +147,15 @@
 }
 
 .rich-text p {
-  @apply mb-6 text-lg;
+  @apply mb-6 text-base sm:text-lg;
+}
+
+.rich-text h1 {
+  @apply mb-8 text-3xl font-medium text-black md:text-4xl lg:text-5xl;
 }
 
 .rich-text h2 {
-  @apply mt-12 mb-6 text-3xl font-medium text-black;
+  @apply mt-12 mb-6 text-2xl font-medium text-black md:text-3xl;
 }
 
 .rich-text h3 {
@@ -176,7 +180,7 @@
 }
 
 .rich-text li {
-  @apply mb-3 text-lg relative;
+  @apply mb-3 text-base sm:text-lg relative;
 }
 
 .rich-text ul li::before {
@@ -209,7 +213,7 @@
 }
 
 .rich-text blockquote p {
-  @apply mb-2 text-lg italic text-black;
+  @apply mb-2 text-base sm:text-lg italic text-black;
 }
 
 .rich-text blockquote footer {

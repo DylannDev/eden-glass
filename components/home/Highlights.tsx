@@ -44,7 +44,7 @@ export default function Highlights() {
                 <item.icon className="h-5 w-5 text-white" />
               </div>
 
-              <p className="mb-2 text-[50px] font-medium text-black">
+              <p className="mb-2 text-[42px] sm:text-[50px] font-medium text-black">
                 {item.value}
               </p>
               <p className="text-base text-gray-dark">{item.label}</p>

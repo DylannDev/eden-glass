@@ -27,7 +27,9 @@ export function ServiceCard({
         <Icon className="h-5 w-5 text-white" />
       </div>
 
-      <h3 className="mb-2 text-[28px] font-medium text-black">{shortTitle}</h3>
+      <h3 className="mb-2 text-2xl sm:text-[28px] font-medium text-black">
+        {shortTitle}
+      </h3>
       <p className="mb-6 flex-1 text-base text-gray-dark">{description}</p>
 
       <div className="flex items-center gap-2">

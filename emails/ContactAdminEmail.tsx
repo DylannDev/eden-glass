@@ -61,17 +61,17 @@ export default function ContactAdminEmail({
               <Img
                 src="https://eden-glass.vercel.app/logo-2.svg"
                 alt="Eden Glass"
-                width={140}
-                height={33}
-                className="mx-auto m-0 mb-2"
+                width={300}
+                height={70}
+                className="mx-auto mb-3"
               />
-              <Text className="m-0 text-base text-white">
-                Nouvelle demande de devis
-              </Text>
             </Section>
 
             {/* Content */}
-            <Section className="bg-white px-4 py-8">
+            <Section className="bg-white px-4 pb-8 pt-4">
+              <Heading as="h1" className="text-center text-lg text-brand mb-8">
+                Nouvelle demande de devis
+              </Heading>
               <Heading
                 as="h2"
                 className="m-0 mb-4 text-base font-semibold text-brand"

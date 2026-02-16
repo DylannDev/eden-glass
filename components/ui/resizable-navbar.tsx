@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { IconMenu2, IconX } from "@tabler/icons-react";
+import { IconX } from "@tabler/icons-react";
+import { CgMenuRightAlt } from "react-icons/cg";
 import {
   motion,
   AnimatePresence,
@@ -206,11 +207,10 @@ export const MobileNav = ({
     <motion.div
       animate={{
         backdropFilter: visible ? "blur(12px)" : "none",
-        width: visible ? "90%" : "100%",
         paddingRight: visible ? "12px" : "0px",
         paddingLeft: visible ? "12px" : "0px",
-        borderRadius: visible ? "4px" : "0",
-        y: visible ? 20 : 0,
+        borderRadius: visible ? "10px" : "0",
+        y: visible ? 12 : 0,
       }}
       transition={{
         type: "spring",
@@ -218,7 +218,7 @@ export const MobileNav = ({
         damping: 50,
       }}
       className={cn(
-        "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between px-0 py-2 lg:hidden",
+        "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between px-0 py-4 lg:hidden",
         visible && "bg-[#0A100D]/90",
         isHomePage && !visible && "bg-transparent",
         isLightTheme && "bg-white border-b border-gray-dark/15 max-w-full",
@@ -282,7 +282,7 @@ MobileNavMenuProps) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className={cn(
-            "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg bg-[#0A100D] px-4 py-8",
+            "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-t-lg rounded-b-4xl bg-black px-4 pt-8 pb-4",
             className
           )}
         >
@@ -310,7 +310,7 @@ export const MobileNavToggle = ({
   return isOpen ? (
     <IconX className={iconClass} onClick={onClick} />
   ) : (
-    <IconMenu2 className={iconClass} onClick={onClick} />
+    <CgMenuRightAlt className={cn(iconClass, "size-6")} onClick={onClick} />
   );
 };
 
@@ -330,7 +330,7 @@ export const NavbarLogo = ({
         alt="Eden Glass"
         width={933}
         height={218}
-        className={cn("h-5 w-auto", isLightTheme && "brightness-0")}
+        className={cn("h-4 sm:h-5 w-auto", isLightTheme && "brightness-0")}
       />
     </Link>
   );

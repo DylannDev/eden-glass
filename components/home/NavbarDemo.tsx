@@ -13,13 +13,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import CallButton from "../ui/call-button";
 import ArrowButton from "../ui/arrow-button";
-
-const navItems = [
-  { name: "Accueil", link: "/" },
-  { name: "Services", link: "/services" },
-  { name: "Blog", link: "/blog" },
-  { name: "Contact", link: "/contact" },
-];
+import { navItems } from "@/data/navigation";
 
 // Wrapper pour adapter la variante du bouton selon l'état de la navbar
 function NavbarCTA({
@@ -73,6 +67,7 @@ export default function NavbarDemo() {
               {item.name}
             </a>
           ))}
+          <hr className="w-full border-white/20 my-2" />
           <CallButton size="sm" className="relative z-20" />
         </MobileNavMenu>
       </MobileNav>

@@ -1,13 +1,8 @@
 import { Phone, Mail, Clock } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { citiesData } from "@/data/services";
-
-const navigation = [
-  { name: "Accueil", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
-];
+import { navItems } from "@/data/navigation";
 
 const services = [
   {
@@ -34,19 +29,24 @@ export default function Footer() {
   return (
     <footer className="bg-black pt-16 pb-8">
       <div className="mx-auto max-w-[1320px] px-5">
-        <div className="grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-6">
           {/* Col 1 - About */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <p className="mb-4 text-xl font-medium text-white">EDEN GLASS</p>
-            <p className="text-sm leading-relaxed text-white/60">
-              Expert en remplacement et réparation de pare-brise dans
-              l&apos;Hérault et le Gard
-            </p>
+          <div className="sm:col-span-2 lg:col-span-2">
+            <Link href="/">
+              <Image
+                src="/logo-2.svg"
+                alt="Eden Glass"
+                width={933}
+                height={218}
+                className="mb-4 h-22 w-auto"
+              />
+            </Link>
+
             <ul className="mt-6 space-y-3">
               <li>
                 <a
                   href="tel:+33749571480"
-                  className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
+                  className="flex items-center gap-2 text-sm text-white transition-colors hover:text-yellow"
                 >
                   <Phone className="h-4 w-4 shrink-0" />
                   07 49 57 14 80
@@ -55,13 +55,13 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:contact@edenglass.fr"
-                  className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-white"
+                  className="flex items-center gap-2 text-sm text-white transition-colors hover:text-yellow"
                 >
                   <Mail className="h-4 w-4 shrink-0" />
                   contact@edenglass.fr
                 </a>
               </li>
-              <li className="flex items-center gap-2 text-sm text-white/60">
+              <li className="flex items-center gap-2 text-sm text-white">
                 <Clock className="h-4 w-4 shrink-0" />
                 7j/7 de 9h à 19h
               </li>
@@ -69,16 +69,16 @@ export default function Footer() {
           </div>
 
           {/* Col 2 - Navigation */}
-          <div>
-            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/40">
+          <div className="pt-9">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Navigation
             </p>
             <ul className="space-y-2">
-              {navigation.map((item) => (
+              {navItems.map((item) => (
                 <li key={item.name}>
                   <Link
-                    href={item.href}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
+                    href={item.link}
+                    className="text-sm text-white/60 transition-colors hover:text-yellow"
                   >
                     {item.name}
                   </Link>
@@ -88,8 +88,8 @@ export default function Footer() {
           </div>
 
           {/* Col 3 - Services */}
-          <div>
-            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/40">
+          <div className="pt-9">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Services
             </p>
             <ul className="space-y-2">
@@ -97,7 +97,7 @@ export default function Footer() {
                 <li key={service.slug}>
                   <Link
                     href={`/services/${service.slug}`}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
+                    className="text-sm text-white/60 transition-colors hover:text-yellow"
                   >
                     {service.name}
                   </Link>
@@ -107,15 +107,15 @@ export default function Footer() {
           </div>
 
           {/* Col 4 - Zone d'intervention Hérault */}
-          <div>
-            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/40">
+          <div className="pt-9">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Hérault (34)
             </p>
             <ul className="space-y-2">
               <li>
                 <Link
                   href="/services/remplacement-pare-brise-montpellier"
-                  className="text-sm text-white/60 transition-colors hover:text-white"
+                  className="text-sm text-white/60 transition-colors hover:text-yellow"
                 >
                   Montpellier
                 </Link>
@@ -124,7 +124,7 @@ export default function Footer() {
                 <li key={city.slug}>
                   <Link
                     href={`/services/remplacement-pare-brise-${city.slug}`}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
+                    className="text-sm text-white/60 transition-colors hover:text-yellow"
                   >
                     {city.name}
                   </Link>
@@ -134,8 +134,8 @@ export default function Footer() {
           </div>
 
           {/* Col 5 - Zone d'intervention Gard */}
-          <div>
-            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/40">
+          <div className="pt-9">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
               Gard (30)
             </p>
             <ul className="space-y-2">
@@ -143,7 +143,7 @@ export default function Footer() {
                 <li key={city.slug}>
                   <Link
                     href={`/services/remplacement-pare-brise-${city.slug}`}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
+                    className="text-sm text-white/60 transition-colors hover:text-yellow"
                   >
                     {city.name}
                   </Link>
@@ -155,23 +155,29 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-8">
-          <div className="flex flex-col items-center gap-4 text-center text-xs text-white/40 md:flex-row md:justify-between md:text-left">
-            <p>&copy; 2025 EDEN GLASS. Tous droits réservés.</p>
+          <div className="flex flex-col items-center gap-4 text-center text-sm text-white md:flex-row md:justify-between md:text-left">
             <div className="flex gap-4">
-              <Link href="#" className="hover:text-white/60">
+              <Link href="/mentions-legales" className="hover:text-yellow">
                 Mentions légales
               </Link>
-              <Link href="#" className="hover:text-white/60">
-                Politique de confidentialité
-              </Link>
-              <Link href="#" className="hover:text-white/60">
+              <Link href="/cgv" className="hover:text-yellow">
                 CGV
               </Link>
             </div>
+            <p>
+              © {new Date().getFullYear()} Eden Glass. Tous droits réservés.
+            </p>
           </div>
-          <p className="mt-4 text-center text-xs text-white/30">
-            *Franchise offerte jusqu&apos;à 300€ maximum, selon offres en cours
-            et contrat d&apos;assurance.
+          <p className="mt-6 text-center md:text-right text-sm text-white">
+            Réalisé par{" "}
+            <a
+              href="https://vizionweb.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow transition-colors hover:text-white hover:underline underline-offset-4"
+            >
+              VizionWeb
+            </a>
           </p>
         </div>
       </div>

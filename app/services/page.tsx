@@ -18,15 +18,20 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-[1320px] px-5">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div className="max-w-xl ">
-              <h1 className="mb-4 text-4xl font-medium text-black lg:text-5xl">
+              <h1 className="mb-4 text-3xl font-medium text-black md:text-4xl lg:text-5xl">
                 Nos services
               </h1>
-              <p className="text-lg text-gray-dark">
+              <p className="text-base text-gray-dark md:text-lg">
                 Des prestations complètes pour tous vos besoins en vitrage
                 automobile à Montpellier et ses alentours.
               </p>
             </div>
-            <CallButton variant="black" />
+            <div className="md:hidden">
+              <CallButton variant="black" size="sm" />
+            </div>
+            <div className="hidden md:block">
+              <CallButton variant="black" />
+            </div>
           </div>
         </div>
       </section>

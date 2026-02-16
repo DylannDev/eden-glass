@@ -114,7 +114,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </span>
           </div>
 
-          <h1 className="mb-6 text-3xl font-medium text-black lg:text-5xl">
+          <h1 className="mb-6 text-2xl font-medium text-black md:text-3xl lg:text-5xl">
             {post.title}
           </h1>
 
@@ -135,7 +135,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Image Section */}
       <section className="bg-white">
         <div className="mx-auto max-w-[1100px] px-5">
-          <div className="relative aspect-21/9 w-full overflow-hidden rounded-xl bg-gray">
+          <div className="relative aspect-video sm:aspect-21/9 w-full overflow-hidden rounded-xl bg-gray">
             <Image
               src={post.image}
               alt={post.imageAlt || post.title}
@@ -161,12 +161,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {relatedServices.length > 0 && (
         <section className="bg-gray py-20 lg:py-28">
           <div className="mx-auto max-w-[1320px] px-5">
-            <h2 className="mb-10 text-center text-3xl font-medium text-black">
+            <h2 className="mb-10 text-center text-2xl font-medium text-black md:text-3xl">
               Services associés
             </h2>
-            <div className={`grid gap-6 justify-center ${relatedServices.length <= 2 ? "sm:grid-cols-2 max-w-[900px] mx-auto" : "sm:grid-cols-2 lg:grid-cols-3"}`}>
+            <div
+              className={`grid gap-6 justify-center ${relatedServices.length <= 2 ? "sm:grid-cols-2 max-w-[900px] mx-auto" : "sm:grid-cols-2 lg:grid-cols-3"}`}
+            >
               {relatedServices.map((service) => (
-                <ServiceCard key={service!.slug} {...service!} bgColor="white" />
+                <ServiceCard
+                  key={service!.slug}
+                  {...service!}
+                  bgColor="white"
+                />
               ))}
             </div>
           </div>
@@ -178,12 +184,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="bg-white py-20 lg:py-28">
           <div className="mx-auto max-w-[1320px] px-5">
             <div className="mb-10 flex items-center justify-between">
-              <h2 className="text-3xl font-medium text-black">
+              <h2 className="text-2xl font-medium text-black md:text-3xl">
                 Autres articles
               </h2>
-              <ArrowButton href="/blog" variant="black">
-                Voir tous les articles
-              </ArrowButton>
+              <div className="md:hidden">
+                <ArrowButton href="/blog" variant="black" size="sm">
+                  Voir tous les articles
+                </ArrowButton>
+              </div>
+              <div className="hidden md:block">
+                <ArrowButton href="/blog" variant="black">
+                  Voir tous les articles
+                </ArrowButton>
+              </div>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {otherPosts.map((otherPost) => (

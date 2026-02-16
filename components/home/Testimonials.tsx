@@ -48,7 +48,7 @@ export default function Testimonials() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="mt-8 flex items-center justify-center gap-4">
+          <div className="mt-0 sm:mt-8 flex items-center justify-center gap-4">
             <CarouselPrevious className="static translate-y-0 size-10 sm:size-12 p-0 cursor-pointer" />
             <CarouselNext className="static translate-y-0 size-10 sm:size-12 p-0 cursor-pointer" />
           </div>

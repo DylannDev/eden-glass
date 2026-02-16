@@ -55,13 +55,10 @@ export default function ContactClientEmail({
               <Img
                 src="https://eden-glass.vercel.app/logo-2.svg"
                 alt="Eden Glass"
-                width={140}
-                height={33}
-                className="mx-auto m-2"
+                width={300}
+                height={70}
+                className="mx-auto mb-3"
               />
-              <Text className="m-0 text-sm text-white/60">
-                Spécialiste du vitrage automobile
-              </Text>
             </Section>
 
             {/* Content */}
@@ -163,13 +160,6 @@ export default function ContactClientEmail({
 
             {/* Footer */}
             <Section className="rounded-b-xl bg-brand px-4 py-6">
-              <Img
-                src="https://eden-glass.vercel.app/logo-2.svg"
-                alt="Eden Glass"
-                width={120}
-                height={28}
-                className="mx-auto mb-3"
-              />
               <Text className="m-0 mb-1 text-center text-[13px] text-white/60">
                 <Link
                   href="tel:+33749571480"
@@ -184,9 +174,6 @@ export default function ContactClientEmail({
                 >
                   contact@edenglass.fr
                 </Link>
-              </Text>
-              <Text className="m-0 mb-3 text-center text-[13px] text-white/60">
-                Montpellier et ses alentours
               </Text>
               <Text className="m-0 text-center text-[11px] text-white/25">
                 Vous recevez cet email suite à votre demande de devis sur

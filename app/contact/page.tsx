@@ -22,8 +22,8 @@ function InfoCard({ icon: Icon, title, children }: InfoCardProps) {
         <Icon className="h-5 w-5 text-white" />
       </div>
       <div>
-        <h3 className="mb-1 text-4xl font-medium text-black">{title}</h3>
-        <div className="text-lg font-normal text-gray-dark">{children}</div>
+        <h3 className="mb-1 text-2xl font-medium text-black md:text-3xl lg:text-4xl">{title}</h3>
+        <div className="text-base font-normal text-gray-dark md:text-lg">{children}</div>
       </div>
     </div>
   );

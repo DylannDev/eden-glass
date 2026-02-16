@@ -19,14 +19,14 @@ export default function Hero() {
 
       <div className="relative text-center z-10 mx-auto w-full max-w-[1320px] px-5 py-24">
         <div className="max-w-4xl mx-auto flex flex-col justify-center">
-          <h1 className="mb-6 text-4xl font-medium leading-tight text-white md:text-5xl lg:text-6xl">
+          <h1 className="mb-6 text-3xl font-medium leading-tight text-white md:text-5xl lg:text-6xl">
             Expert en{" "}
             <span className="text-yellow">
               Vitrage Automobile & Pare-Brise{" "}
             </span>
             à Montpellier
           </h1>
-          <h2 className="text-xl text-white mb-1">
+          <h2 className="text-base text-white mb-1 md:text-lg lg:text-xl">
             Réparation d'impact, remplacement pare-brise et vitres sur
             Montpellier et alentours.
           </h2>
@@ -39,12 +39,17 @@ export default function Hero() {
                     className="size-2 shrink-0 text-black"
                   />
                 </div>
-                <span className="text-lg text-white">{point}</span>
+                <span className="text-sm text-white md:text-base lg:text-lg">
+                  {point}
+                </span>
               </li>
             ))}
           </ul>
 
-          <div className="flex flex-col justify-center gap-4 sm:flex-row">
+          <div className="flex flex-col justify-center md:hidden gap-4 sm:flex-row w-fit mx-auto">
+            <CallButton variant="yellow" size="sm" />
+          </div>
+          <div className="hidden flex-col justify-center md:flex gap-4 sm:flex-row w-fit mx-auto">
             <CallButton variant="yellow" />
           </div>
         </div>

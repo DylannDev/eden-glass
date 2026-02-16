@@ -11,19 +11,26 @@ export default function PreFooterCTA() {
         <div className="bg-yellow rounded-xl p-4">
           <div className="grid items-stretch gap-6 lg:grid-cols-2">
             {/* Left - Yellow card */}
-            <div className="flex flex-col text-4xl lg:text-5xl font-medium justify-between p-6">
-              <div>
+            <div className="flex flex-col text-[28px] sm:text-4xl lg:text-5xl font-medium justify-between p-3 lg:p-6">
+              <div className="text-center sm:text-left leading-8 sm:leading-12">
                 <p className="mb-1 text-gray-dark">Un impact ? Une fissure ?</p>
                 <h3 className="mb-8 text-black">
                   Contactez Eden Glass, on s'occupe de tout.
                 </h3>
 
-                <ArrowButton href="/contact" variant="black">
-                  Obtenir mon devis
-                </ArrowButton>
+                <div className="md:hidden">
+                  <ArrowButton href="/contact" variant="black" size="sm" className="w-fit">
+                    Obtenir mon devis
+                  </ArrowButton>
+                </div>
+                <div className="hidden md:block">
+                  <ArrowButton href="/contact" variant="black" className="w-fit">
+                    Obtenir mon devis
+                  </ArrowButton>
+                </div>
               </div>
 
-              <ul className="mt-10 space-y-3">
+              <ul className="mt-10 space-y-3 flex flex-col items-center sm:items-start ">
                 {points.map((point) => (
                   <li key={point} className="flex items-center gap-2">
                     <div className="bg-black rounded-full p-1">
@@ -35,7 +42,7 @@ export default function PreFooterCTA() {
               </ul>
             </div>
 
-            <div className="relative max-h-[500px] aspect-5/4 overflow-hidden rounded-xl lg:min-h-0">
+            <div className="relative max-h-[500px] w-full aspect-5/4 md:aspect-video lg:aspect-5/4 overflow-hidden rounded-xl lg:min-h-0">
               <Image
                 src="/tesla.jpg"
                 alt="Impact sur pare-brise nécessitant une réparation"

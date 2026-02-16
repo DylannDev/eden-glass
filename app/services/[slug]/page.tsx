@@ -123,7 +123,10 @@ export default async function ServicePage({ params }: ServicePageProps) {
             subtitle={service.subtitle}
             className="mb-8"
           />
-          <div className="text-center">
+          <div className="text-center md:hidden">
+            <CallButton variant="black" size="sm" />
+          </div>
+          <div className="hidden text-center md:block">
             <CallButton variant="black" />
           </div>
         </div>
@@ -132,7 +135,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
       {/* Image Section */}
       <section className="bg-white">
         <div className="mx-auto max-w-[1100px] px-5">
-          <div className="relative aspect-21/9 w-full overflow-hidden rounded-xl bg-gray">
+          <div className="relative aspect-video sm:aspect-21/9 w-full overflow-hidden rounded-xl bg-gray">
             <Image
               src={service.image}
               alt={service.title}
