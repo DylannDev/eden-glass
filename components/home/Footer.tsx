@@ -1,4 +1,9 @@
 import { Phone, Mail, Clock } from "lucide-react";
+import {
+  RiInstagramFill,
+  RiWhatsappFill,
+  RiFacebookCircleFill,
+} from "react-icons/ri";
 import Image from "next/image";
 import Link from "next/link";
 import { citiesData } from "@/data/services";
@@ -66,6 +71,33 @@ export default function Footer() {
                 7j/7 de 9h à 19h
               </li>
             </ul>
+
+            <div className="mt-6 flex gap-3">
+              <a
+                href="https://www.instagram.com/eden__glass?igsh=MTFobGJyaW5idGwwZQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-yellow hover:text-black"
+              >
+                <RiInstagramFill className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-yellow hover:text-black"
+              >
+                <RiFacebookCircleFill className="h-5 w-5" />
+              </a>
+              <a
+                href="https://wa.me/33749571480"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-yellow hover:text-black"
+              >
+                <RiWhatsappFill className="h-5 w-5" />
+              </a>
+            </div>
           </div>
 
           {/* Col 2 - Navigation */}
