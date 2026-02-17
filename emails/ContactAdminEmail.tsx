@@ -59,7 +59,7 @@ export default function ContactAdminEmail({
             {/* Header */}
             <Section className="rounded-t-xl bg-brand px-4 py-8 text-center">
               <Img
-                src="https://edenglass.fr/logo-2.svg"
+                src="https://edenglass.fr/logo-2.png"
                 alt="Eden Glass"
                 width={300}
                 height={70}
