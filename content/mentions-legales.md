@@ -4,14 +4,14 @@
 
 Le site **edenglass.fr** est édité par :
 
-- **Raison sociale :** [Nom de l'entreprise]
-- **Forme juridique :** [SARL / SAS / Auto-entrepreneur…]
-- **Capital social :** [Montant] €
-- **Siège social :** [Adresse complète]
-- **SIRET :** [Numéro SIRET]
-- **RCS :** [Ville + numéro]
-- **Numéro de TVA :** [Numéro TVA intracommunautaire]
-- **Directeur de la publication :** [Nom du responsable]
+- **Raison sociale :** WILSON JONATHAN (EDEN GLASS)
+- **Forme juridique :** Entrepreneur individuel (micro-entreprise)
+- **Siège social :** 48 rue Claude Balbastre, 34070 Montpellier
+- **SIREN :** 999 581 333
+- **SIRET :** 999 581 333 00013
+- **RCS :** 999 581 333 R.C.S. Montpellier
+- **Numéro de TVA :** FR69999581333
+- **Directeur de la publication :** Jonathan Wilson
 - **Téléphone :** [07 49 57 14 80](tel:+33749571480)
 - **Email :** [contact@edenglass.fr](mailto:contact@edenglass.fr)
 
@@ -23,9 +23,9 @@ Le site **edenglass.fr** est édité par :
 
 ## Propriété intellectuelle
 
-L'ensemble du contenu du site edenglass.fr (textes, images, graphismes, logo, icônes, sons, logiciels…) est la propriété exclusive de [Nom de l'entreprise], à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
+L'ensemble du contenu du site edenglass.fr (textes, images, graphismes, logo, icônes, sons, logiciels…) est la propriété exclusive de WILSON JONATHAN (EDEN GLASS), à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
 
-Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de [Nom de l'entreprise].
+Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de WILSON JONATHAN (EDEN GLASS).
 
 ## Protection des données personnelles
 
@@ -49,7 +49,7 @@ Le site edenglass.fr n'utilise pas de cookies publicitaires ou de traçage. Seul
 
 ## Responsabilité
 
-[Nom de l'entreprise] s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+WILSON JONATHAN (EDEN GLASS) s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 ## Litiges
 
@@ -57,4 +57,4 @@ Les présentes mentions légales sont régies par le droit français. En cas de 
 
 ---
 
-*Dernière mise à jour : [Date]*
+*Dernière mise à jour : février 2026*

@@ -19,7 +19,7 @@ Les interventions sont réalisées à domicile, sur le lieu de travail du Client
 
 ## Article 3 – Devis et commande
 
-Toute prestation fait l'objet d'un devis gratuit préalable. Le devis est valable pour une durée de [30 jours] à compter de sa date d'émission. La commande est considérée comme ferme et définitive après acceptation du devis par le Client.
+Toute prestation fait l'objet d'un devis gratuit préalable. Le devis est valable pour une durée de 30 jours à compter de sa date d'émission. La commande est considérée comme ferme et définitive après acceptation du devis par le Client.
 
 ## Article 4 – Tarifs
 
@@ -31,7 +31,6 @@ L'offre « franchise offerte jusqu'à 300€ » est soumise à conditions et app
 
 Le règlement peut s'effectuer par :
 
-- Carte bancaire
 - Virement bancaire
 - Espèces
 - Prise en charge directe par l'assurance du Client (tiers payant)
@@ -46,7 +45,7 @@ En cas d'impossibilité d'intervenir (conditions météorologiques, indisponibil
 
 ## Article 7 – Garantie
 
-Les pièces de vitrage posées par Eden Glass bénéficient d'une garantie constructeur. La pose est garantie [à vie / X ans] contre tout défaut d'étanchéité lié à l'installation.
+Les pièces de vitrage posées par Eden Glass bénéficient d'une garantie constructeur. La pose est garantie contre tout défaut d'étanchéité lié à l'installation.
 
 La garantie ne couvre pas :
 
@@ -64,16 +63,12 @@ Eden Glass est responsable de la qualité de ses prestations et s'engage à util
 
 ## Article 10 – Réclamations
 
-Toute réclamation doit être adressée par email à [contact@edenglass.fr](mailto:contact@edenglass.fr) ou par téléphone au [07 49 57 14 80](tel:+33749571480) dans un délai de [7 jours] suivant l'intervention.
+Toute réclamation doit être adressée par email à [contact@edenglass.fr](mailto:contact@edenglass.fr) ou par téléphone au [07 49 57 14 80](tel:+33749571480) dans un délai de 7 jours suivant l'intervention.
 
-## Article 11 – Médiation
-
-En cas de litige non résolu, le Client peut recourir gratuitement au service de médiation. Le médiateur de la consommation compétent est : [Nom et coordonnées du médiateur].
-
-## Article 12 – Droit applicable
+## Article 11 – Droit applicable
 
 Les présentes CGV sont soumises au droit français. Tout litige relatif à leur interprétation ou leur exécution relève de la compétence des tribunaux du ressort du siège social d'Eden Glass.
 
 ---
 
-*Dernière mise à jour : [Date]*
+_Dernière mise à jour : Février 2026_
