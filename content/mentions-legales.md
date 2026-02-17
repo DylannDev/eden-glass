@@ -4,7 +4,7 @@
 
 Le site **edenglass.fr** est édité par :
 
-- **Raison sociale :** WILSON JONATHAN (EDEN GLASS)
+- **Raison sociale :** WILSON JONATHAN (Eden Glass)
 - **Forme juridique :** Entrepreneur individuel (micro-entreprise)
 - **Siège social :** 48 rue Claude Balbastre, 34070 Montpellier
 - **SIREN :** 999 581 333
@@ -23,9 +23,9 @@ Le site **edenglass.fr** est édité par :
 
 ## Propriété intellectuelle
 
-L'ensemble du contenu du site edenglass.fr (textes, images, graphismes, logo, icônes, sons, logiciels…) est la propriété exclusive de WILSON JONATHAN (EDEN GLASS), à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
+L'ensemble du contenu du site edenglass.fr (textes, images, graphismes, logo, icônes, sons, logiciels…) est la propriété exclusive de WILSON JONATHAN (Eden Glass), à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
 
-Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de WILSON JONATHAN (EDEN GLASS).
+Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de WILSON JONATHAN (Eden Glass).
 
 ## Protection des données personnelles
 
@@ -49,7 +49,7 @@ Le site edenglass.fr n'utilise pas de cookies publicitaires ou de traçage. Seul
 
 ## Responsabilité
 
-WILSON JONATHAN (EDEN GLASS) s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+WILSON JONATHAN (Eden Glass) s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 ## Litiges
 
@@ -57,4 +57,4 @@ Les présentes mentions légales sont régies par le droit français. En cas de 
 
 ---
 
-*Dernière mise à jour : février 2026*
+_Dernière mise à jour : février 2026_

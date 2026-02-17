@@ -1,8 +1,8 @@
-# CONTEXT.md - EDEN GLASS Website
+# CONTEXT.md - Eden Glass Website
 
 ## Project Overview
 
-Site vitrine pour EDEN GLASS, entreprise de remplacement et réparation de pare-brise basée à Montpellier.
+Site vitrine pour Eden Glass, entreprise de remplacement et réparation de pare-brise basée à Montpellier.
 Template inspiré de : https://towmate-template.framer.website/
 
 ## Technical Stack
@@ -91,7 +91,7 @@ Nîmes, Alès, Beaucaire, Vauvert, Saint-Gilles, Lunel, Aigues-Mortes, Le Grau-d
 
 #### 2. À Propos Section
 
-- **Titre H2**: "EDEN GLASS, Expert en Vitrage Automobile"
+- **Titre H2**: "Eden Glass, Expert en Vitrage Automobile"
 - **Description**:
   "Spécialistes du remplacement et de la réparation de pare-brise, nous intervenons rapidement dans tout l'Hérault et le Gard. Notre équipe de techniciens certifiés se déplace à votre domicile ou sur votre lieu de travail, et utilise uniquement des verres homologués pour garantir votre sécurité."
 - **Sous-points**:
@@ -165,7 +165,7 @@ Utiliser Radix UI Accordion pour cette section.
 - **Titre**: "Intervention rapide dans l'Hérault et le Gard"
 - **Sous-titre**: "Service professionnel 7j/7 pour votre sécurité"
 - **Description**:
-  "Nous savons qu'un pare-brise endommagé nécessite une intervention urgente. C'est pourquoi EDEN GLASS se déplace directement chez vous ou sur votre lieu de travail, avec du matériel professionnel et des techniques éprouvées. Que vous soyez à Montpellier, Nîmes ou dans les communes alentours, nous intervenons rapidement pour garantir votre sécurité."
+  "Nous savons qu'un pare-brise endommagé nécessite une intervention urgente. C'est pourquoi Eden Glass se déplace directement chez vous ou sur votre lieu de travail, avec du matériel professionnel et des techniques éprouvées. Que vous soyez à Montpellier, Nîmes ou dans les communes alentours, nous intervenons rapidement pour garantir votre sécurité."
 - **CTA**: "Nous contacter" (bouton jaune)
 
 #### 7. FAQ Section
@@ -196,7 +196,7 @@ Utiliser Radix UI Accordion.
 #### 8. Pre-footer CTA
 
 - **Titre**: "Besoin d'un remplacement de pare-brise ?"
-- **Description**: "Contactez EDEN GLASS dès maintenant pour un devis gratuit et une intervention rapide à domicile."
+- **Description**: "Contactez Eden Glass dès maintenant pour un devis gratuit et une intervention rapide à domicile."
 - **CTA 1**: "Appeler maintenant" - lien vers tel:+33749571480
 - **CTA 2**: "Demander un devis" - lien vers /contact
 
@@ -206,7 +206,7 @@ Utiliser Radix UI Accordion.
 
 **Colonne 1 - À propos**
 
-- Logo EDEN GLASS
+- Logo Eden Glass
 - "Expert en remplacement et réparation de pare-brise dans l'Hérault et le Gard"
 - Icônes réseaux sociaux (placeholders)
 
@@ -236,7 +236,7 @@ Utiliser Radix UI Accordion.
 
 **Bottom Footer**:
 
-- © 2025 EDEN GLASS. Tous droits réservés.
+- © 2025 Eden Glass. Tous droits réservés.
 - Mentions légales | Politique de confidentialité | CGV
 - \*Franchise offerte jusqu'à 300€ maximum, selon offres en cours et contrat d'assurance.
 
@@ -268,7 +268,7 @@ Utiliser Radix UI Form avec validation TypeScript. On utilisera Resend pour l'en
    - Autre lieu (préciser dans le message)
 8. **Ville / Code postal** (required, text)
 9. **Message** (optional, textarea) - Décrivez votre problème ou précisez vos disponibilités
-10. **Checkbox**: "J'accepte d'être recontacté par EDEN GLASS" (required)
+10. **Checkbox**: "J'accepte d'être recontacté par Eden Glass" (required)
 
 **CTA Submit**: "Envoyer ma demande" (bouton jaune)
 
@@ -279,7 +279,7 @@ Utiliser Radix UI Form avec validation TypeScript. On utilisera Resend pour l'en
 ```typescript
 export const metadata = {
   title:
-    "EDEN GLASS | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
+    "Eden Glass | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
   description:
     "Expert en remplacement et réparation de pare-brise dans l'Hérault et le Gard. Intervention à domicile 7j/7, franchise offerte jusqu'à 300€. ☎️ 07 49 57 14 80",
   keywords:
@@ -332,7 +332,7 @@ Générer automatiquement via Next.js App Router.
 ### Images (placeholders pour le moment)
 
 - Hero background: Technicien en train de remplacer un pare-brise
-- À propos: Équipe EDEN GLASS ou intervention à domicile
+- À propos: Équipe Eden Glass ou intervention à domicile
 - Services: Images pour chaque type de prestation (voiture, camion, engin agricole)
 - Réassurance: Image de véhicule avec pare-brise neuf
 
@@ -389,7 +389,7 @@ Privilégier les transitions CSS natives et Tailwind pour ce projet (pas besoin 
 
 ## Content Gaps to Fill Later
 
-- [ ] Logo EDEN GLASS (vectoriel SVG si possible)
+- [ ] Logo Eden Glass (vectoriel SVG si possible)
 - [ ] Photos réelles de l'équipe et des interventions
 - [ ] Photos d'interventions sur camions et engins agricoles
 - [ ] Témoignages clients (pour une future V2)

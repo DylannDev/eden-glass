@@ -1,8 +1,8 @@
-# Prompt Claude Code - Mise à jour site EDEN GLASS
+# Prompt Claude Code - Mise à jour site Eden Glass
 
 ## Contexte
 
-Tu travailles sur le site vitrine EDEN GLASS, une entreprise de remplacement et réparation de pare-brise. Le fichier `CONTEXT.md` a été mis à jour avec les nouvelles informations du client. Tu dois maintenant mettre à jour l'ensemble du site pour refléter ces changements.
+Tu travailles sur le site vitrine Eden Glass, une entreprise de remplacement et réparation de pare-brise. Le fichier `CONTEXT.md` a été mis à jour avec les nouvelles informations du client. Tu dois maintenant mettre à jour l'ensemble du site pour refléter ces changements.
 
 ## Fichier de référence
 
@@ -46,7 +46,7 @@ Mets à jour la section À Propos avec ces nouveaux points :
 ```
 ✓ Intervention à domicile ou sur lieu de travail
 ✓ Tous véhicules : voitures, camions, engins agricoles
-✓ Franchise offerte jusqu'à 300€*
+✓ franchise offerte jusqu'à 300€
 ✓ Pas d'avance de frais avec votre assurance
 ✓ Disponible 7j/7 de 9h à 19h
 ```
@@ -114,7 +114,7 @@ Mets à jour dans `layout.tsx` ou `page.tsx` :
 ```typescript
 export const metadata = {
   title:
-    "EDEN GLASS | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
+    "Eden Glass | Remplacement Pare-Brise Montpellier Nîmes - Franchise Offerte 300€*",
   description:
     "Expert en remplacement et réparation de pare-brise dans l'Hérault et le Gard. Intervention à domicile 7j/7, franchise offerte jusqu'à 300€. ☎️ 07 49 57 14 80",
   keywords:

@@ -4,7 +4,7 @@ import Image from "next/image";
 const points = [
   "Intervention à domicile ou sur lieu de travail",
   "Tous véhicules : voitures, camions, engins agricoles",
-  "Franchise offerte jusqu'à 300€*",
+  "franchise offerte jusqu'à 300€",
   "Pas d'avance de frais avec votre assurance",
   "Disponible 7j/7 de 9h à 19h",
 ];

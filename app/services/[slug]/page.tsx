@@ -29,14 +29,15 @@ export async function generateMetadata({
 
   if (!service) {
     return {
-      title: "Service non trouvé | EDEN GLASS",
+      title: "Service non trouvé | Eden Glass",
     };
   }
 
   return {
     title: service.metaTitle,
     description: service.metaDescription,
-    keywords: service.keywords.join(", "),
+    keywords: service.keywords,
+    alternates: { canonical: `/services/${slug}` },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,

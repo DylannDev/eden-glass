@@ -6,9 +6,10 @@ import Testimonials from "@/components/home/Testimonials";
 import PreFooterCTA from "@/components/home/PreFooterCTA";
 
 export const metadata: Metadata = {
-  title: "Services | EDEN GLASS - Vitrage Automobile Montpellier",
+  title: "Nos Services de Vitrage Automobile à Montpellier",
   description:
-    "Remplacement de pare-brise, réparation d'impact, vitres latérales et lunette arrière. Services de vitrage automobile à Montpellier.",
+    "Pare-brise, vitres latérales, lunette arrière, calibrage ADAS : tous nos services de vitrage automobile. Intervention à domicile dans l'Hérault et le Gard.",
+  alternates: { canonical: "/services" },
 };
 
 export default function ServicesPage() {

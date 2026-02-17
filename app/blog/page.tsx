@@ -3,9 +3,10 @@ import SectionHeader from "@/components/ui/section-header";
 import BlogFilters from "@/components/blog/BlogFilters";
 
 export const metadata: Metadata = {
-  title: "Blog | EDEN GLASS - Conseils Pare-Brise et Vitrage Automobile",
+  title: "Blog - Conseils Pare-Brise et Vitrage Automobile",
   description:
-    "Articles et conseils sur l'entretien de votre pare-brise et vitrage automobile par EDEN GLASS, expert à Montpellier.",
+    "Conseils d'experts sur le pare-brise et le vitrage automobile : réparation d'impact, assurance bris de glace, entretien, calibrage ADAS et actualités locales Montpellier.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {

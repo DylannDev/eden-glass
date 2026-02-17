@@ -25,14 +25,15 @@ export async function generateMetadata({
 
   if (!post) {
     return {
-      title: "Article non trouvé | EDEN GLASS",
+      title: "Article non trouvé | Eden Glass",
     };
   }
 
   return {
-    title: `${post.title} | EDEN GLASS Blog`,
+    title: post.title,
     description: post.excerpt,
-    keywords: post.keywords.join(", "),
+    keywords: post.keywords,
+    alternates: { canonical: `/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -70,12 +71,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     dateModified: post.date,
     author: {
       "@type": "Organization",
-      name: "EDEN GLASS",
+      name: "Eden Glass",
       url: "https://edenglass.fr",
     },
     publisher: {
       "@type": "Organization",
-      name: "EDEN GLASS",
+      name: "Eden Glass",
       url: "https://edenglass.fr",
       logo: {
         "@type": "ImageObject",

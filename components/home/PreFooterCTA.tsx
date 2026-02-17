@@ -19,12 +19,21 @@ export default function PreFooterCTA() {
                 </h3>
 
                 <div className="md:hidden">
-                  <ArrowButton href="/contact" variant="black" size="sm" className="w-fit">
+                  <ArrowButton
+                    href="/contact"
+                    variant="black"
+                    size="sm"
+                    className="w-fit"
+                  >
                     Obtenir mon devis
                   </ArrowButton>
                 </div>
                 <div className="hidden md:block">
-                  <ArrowButton href="/contact" variant="black" className="w-fit">
+                  <ArrowButton
+                    href="/contact"
+                    variant="black"
+                    className="w-fit"
+                  >
                     Obtenir mon devis
                   </ArrowButton>
                 </div>

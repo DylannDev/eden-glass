@@ -4,9 +4,10 @@ import path from "path";
 import Markdown from "react-markdown";
 
 export const metadata: Metadata = {
-  title: "Conditions Générales de Vente | Eden Glass",
+  title: "Conditions Générales de Vente",
   description:
-    "Conditions générales de vente d'Eden Glass – Prestations de vitrage automobile, tarifs, garanties et modalités d'intervention.",
+    "Conditions générales de vente d'Eden Glass : prestations de vitrage automobile, garanties, modalités d'intervention et paiement.",
+  robots: { index: false, follow: true },
 };
 
 const content = fs.readFileSync(

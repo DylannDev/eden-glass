@@ -27,7 +27,16 @@ export async function sendContactEmail(
   const address = (formData.get("address") as string) || "";
   const message = (formData.get("message") as string) || "";
 
-  if (!name || !email || !phone || !vehicle || !glass || !insurance || !location || !city) {
+  if (
+    !name ||
+    !email ||
+    !phone ||
+    !vehicle ||
+    !glass ||
+    !insurance ||
+    !location ||
+    !city
+  ) {
     return {
       success: false,
       message: "Veuillez remplir tous les champs obligatoires.",
@@ -40,7 +49,7 @@ export async function sendContactEmail(
   try {
     await Promise.all([
       resend.emails.send({
-        from: `EDEN GLASS <${emailFrom}>`,
+        from: `Eden Glass <${emailFrom}>`,
         to: emailTo,
         replyTo: email,
         subject: `Nouveau devis – ${name} – ${glass}`,
@@ -59,9 +68,9 @@ export async function sendContactEmail(
         }),
       }),
       resend.emails.send({
-        from: `EDEN GLASS <${emailFrom}>`,
+        from: `Eden Glass <${emailFrom}>`,
         to: email,
-        subject: "EDEN GLASS – Votre demande de devis a bien été reçue",
+        subject: "Eden Glass – Votre demande de devis a bien été reçue",
         react: ContactClientEmail({
           name,
           vehicle,
@@ -77,13 +86,15 @@ export async function sendContactEmail(
 
     return {
       success: true,
-      message: "Votre demande a bien été envoyée ! Nous vous recontactons sous 24h.",
+      message:
+        "Votre demande a bien été envoyée ! Nous vous recontactons sous 24h.",
     };
   } catch (error) {
     console.error("Error sending contact email:", error);
     return {
       success: false,
-      message: "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous appeler au 07 49 57 14 80.",
+      message:
+        "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous appeler au 07 49 57 14 80.",
     };
   }
 }

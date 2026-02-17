@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
       "Comment savoir si votre impact nécessite une réparation ou un remplacement complet ? Critères de taille, emplacement, coût et prise en charge assurance. Diagnostic gratuit à Montpellier.",
     image: "/impact-2.jpg",
     imageAlt: "Impact en étoile sur un pare-brise de voiture",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-15",
     readTime: "7 min",
     category: "Conseils",
@@ -48,7 +48,10 @@ export const blogPosts: BlogPost[] = [
       "pare-brise Montpellier",
       "vitrage automobile Hérault",
     ],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Un impact sur votre pare-brise peut survenir à tout moment : un gravillon projeté sur l'autoroute A9, des débris sur les routes de l'Hérault ou du Gard... La question qui se pose alors est : faut-il <a href="/services/reparation-impact-pare-brise-montpellier">réparer l'impact</a> ou procéder à un <a href="/services/remplacement-pare-brise-montpellier">remplacement complet du pare-brise</a> ? Voici tous les critères à connaître pour prendre la bonne décision.</p>
 
@@ -98,7 +101,7 @@ export const blogPosts: BlogPost[] = [
       <p>Pour en savoir plus, consultez notre article sur les <a href="/blog/5-erreurs-transforment-impact-en-fissure">5 erreurs qui transforment un impact en fissure</a>.</p>
 
       <h2>La prise en charge assurance bris de glace</h2>
-      <p>La plupart des contrats d'assurance auto incluent une garantie bris de glace. Chez EDEN GLASS, nous simplifions toutes les démarches :</p>
+      <p>La plupart des contrats d'assurance auto incluent une garantie bris de glace. Chez Eden Glass, nous simplifions toutes les démarches :</p>
       <ul>
         <li>Nous <strong>contactons directement votre assureur</strong> pour la prise en charge</li>
         <li>Nous gérons l'intégralité du <strong>dossier administratif</strong></li>
@@ -113,25 +116,26 @@ export const blogPosts: BlogPost[] = [
       <p>Un petit impact ne rend pas le véhicule immédiatement dangereux, mais il faut le faire examiner rapidement. En revanche, une fissure dans le champ de vision du conducteur peut être sanctionnée lors d'un contrôle technique ou par les forces de l'ordre (amende de 135€ et immobilisation possible).</p>
 
       <h3>Combien de temps dure une réparation d'impact ?</h3>
-      <p>La réparation d'un impact prend environ 30 minutes. Le véhicule est immédiatement utilisable après l'intervention. Chez EDEN GLASS, nous intervenons à domicile ou sur votre lieu de travail à Montpellier et dans tout l'Hérault et le Gard.</p>
+      <p>La réparation d'un impact prend environ 30 minutes. Le véhicule est immédiatement utilisable après l'intervention. Chez Eden Glass, nous intervenons à domicile ou sur votre lieu de travail à Montpellier et dans tout l'Hérault et le Gard.</p>
 
       <h3>La réparation est-elle visible après ?</h3>
       <p>Une réparation bien réalisée est quasiment invisible. La résine utilisée a le même indice de réfraction que le verre, ce qui rend la zone réparée très discrète. Seul un examen attentif permet de la détecter.</p>
 
       <h3>Mon assurance couvre-t-elle la réparation ?</h3>
-      <p>Si vous avez souscrit la garantie bris de glace (incluse dans la plupart des contrats tous risques), la réparation est généralement prise en charge à 100% sans franchise. Pour le remplacement, EDEN GLASS offre la franchise jusqu'à 300€*.</p>
+      <p>Si vous avez souscrit la garantie bris de glace (incluse dans la plupart des contrats tous risques), la réparation est généralement prise en charge à 100% sans franchise. Pour le remplacement, Eden Glass offre la franchise jusqu'à 300€*.</p>
 
-      <p><strong>Vous avez un impact sur votre pare-brise ?</strong> Contactez EDEN GLASS au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic gratuit. Nous intervenons rapidement à Montpellier, dans l'Hérault (34) et le Gard (30), 7j/7 de 9h à 19h.</p>
+      <p><strong>Vous avez un impact sur votre pare-brise ?</strong> Contactez Eden Glass au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic gratuit. Nous intervenons rapidement à Montpellier, dans l'Hérault (34) et le Gard (30), 7j/7 de 9h à 19h.</p>
     `,
   },
   {
     slug: "calibrage-adas-obligatoire-remplacement-pare-brise",
-    title: "Calibrage ADAS : pourquoi est-ce obligatoire après un remplacement de pare-brise ?",
+    title:
+      "Calibrage ADAS : pourquoi est-ce obligatoire après un remplacement de pare-brise ?",
     excerpt:
       "Votre véhicule a des systèmes d'aide à la conduite (freinage auto, régulateur adaptatif) ? Le calibrage ADAS après remplacement du pare-brise est obligatoire. Types, prix et délais à Montpellier.",
     image: "/pare-brise-3.jpg",
     imageAlt: "Calibrage du système ADAS après remplacement de pare-brise",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-08",
     readTime: "8 min",
     category: "Technologie",
@@ -146,7 +150,10 @@ export const blogPosts: BlogPost[] = [
       "remplacement pare-brise ADAS",
       "recalibrage caméra frontale",
     ],
-    relatedServices: ["calibrage-camera-adas-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "calibrage-camera-adas-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Les véhicules modernes sont de plus en plus équipés de systèmes ADAS (Advanced Driver Assistance Systems). Ces technologies de sécurité reposent sur des caméras et capteurs fixés directement sur le pare-brise. Lors d'un <a href="/services/remplacement-pare-brise-montpellier">remplacement de pare-brise</a>, le <a href="/services/calibrage-camera-adas-montpellier">calibrage ADAS</a> est une étape obligatoire pour garantir le bon fonctionnement de ces systèmes vitaux.</p>
 
@@ -211,10 +218,10 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Renault</strong> : Clio V, Captur, Mégane, Austral depuis 2019</li>
         <li><strong>Toyota / Lexus</strong> : Yaris, Corolla, RAV4, C-HR depuis 2018</li>
       </ul>
-      <p>Pour savoir si votre véhicule est concerné, <a href="/contact">contactez EDEN GLASS</a> avec votre numéro d'immatriculation.</p>
+      <p>Pour savoir si votre véhicule est concerné, <a href="/contact">contactez Eden Glass</a> avec votre numéro d'immatriculation.</p>
 
-      <h2>EDEN GLASS : expert en calibrage ADAS à Montpellier</h2>
-      <p>Chez EDEN GLASS, nous disposons des équipements de calibrage dernière génération pour intervenir sur tous les types de véhicules. Notre technicien certifié garantit un calibrage conforme aux spécifications constructeur, avec un rapport de calibrage remis systématiquement.</p>
+      <h2>Eden Glass : expert en calibrage ADAS à Montpellier</h2>
+      <p>Chez Eden Glass, nous disposons des équipements de calibrage dernière génération pour intervenir sur tous les types de véhicules. Notre technicien certifié garantit un calibrage conforme aux spécifications constructeur, avec un rapport de calibrage remis systématiquement.</p>
       <ul>
         <li>Intervention à Montpellier et dans tout l'Hérault (34) et le Gard (30)</li>
         <li>Équipements compatibles avec toutes les marques</li>
@@ -225,28 +232,29 @@ export const blogPosts: BlogPost[] = [
       <h2>Questions fréquentes sur le calibrage ADAS</h2>
 
       <h3>Combien coûte un calibrage ADAS ?</h3>
-      <p>Le calibrage ADAS coûte entre 100€ et 250€ selon le véhicule et le type de calibrage requis. Chez EDEN GLASS, il est systématiquement inclus dans le devis de remplacement de pare-brise et pris en charge par l'assurance bris de glace.</p>
+      <p>Le calibrage ADAS coûte entre 100€ et 250€ selon le véhicule et le type de calibrage requis. Chez Eden Glass, il est systématiquement inclus dans le devis de remplacement de pare-brise et pris en charge par l'assurance bris de glace.</p>
 
       <h3>Peut-on rouler sans calibrage après un remplacement ?</h3>
-      <p>C'est fortement déconseillé et potentiellement dangereux. Les systèmes ADAS peuvent fonctionner de manière erratique : faux freinages, alertes intempestives ou absence de réaction en cas de danger réel. Chez EDEN GLASS, le calibrage est réalisé immédiatement après le remplacement.</p>
+      <p>C'est fortement déconseillé et potentiellement dangereux. Les systèmes ADAS peuvent fonctionner de manière erratique : faux freinages, alertes intempestives ou absence de réaction en cas de danger réel. Chez Eden Glass, le calibrage est réalisé immédiatement après le remplacement.</p>
 
       <h3>Comment savoir si mon véhicule a des systèmes ADAS ?</h3>
       <p>Regardez derrière votre rétroviseur intérieur : si vous voyez un boîtier (caméra) fixé au pare-brise, votre véhicule est très probablement équipé d'ADAS. Vous pouvez aussi consulter le carnet d'entretien ou nous contacter avec votre immatriculation.</p>
 
       <h3>Le calibrage est-il garanti ?</h3>
-      <p>Chez EDEN GLASS, chaque calibrage est validé par un diagnostic électronique complet. Nous remettons un rapport de calibrage certifiant la conformité aux normes constructeur. En cas de dysfonctionnement, nous reprenons l'intervention sans frais.</p>
+      <p>Chez Eden Glass, chaque calibrage est validé par un diagnostic électronique complet. Nous remettons un rapport de calibrage certifiant la conformité aux normes constructeur. En cas de dysfonctionnement, nous reprenons l'intervention sans frais.</p>
 
-      <p><strong>Besoin d'un remplacement de pare-brise avec calibrage ADAS ?</strong> Appelez EDEN GLASS au <a href="tel:0749571480">07 49 57 14 80</a>. Nous intervenons rapidement à Montpellier et dans les départements de l'Hérault et du Gard, 7j/7. Franchise offerte jusqu'à 300€*.</p>
+      <p><strong>Besoin d'un remplacement de pare-brise avec calibrage ADAS ?</strong> Appelez Eden Glass au <a href="tel:0749571480">07 49 57 14 80</a>. Nous intervenons rapidement à Montpellier et dans les départements de l'Hérault et du Gard, 7j/7. franchise offerte jusqu'à 300€.</p>
     `,
   },
   {
     slug: "entretenir-pare-brise-hiver",
-    title: "Comment protéger votre pare-brise en hiver ? 7 conseils indispensables",
+    title:
+      "Comment protéger votre pare-brise en hiver ? 7 conseils indispensables",
     excerpt:
       "Givre, chocs thermiques, verglas : l'hiver met votre pare-brise en danger. 7 conseils pratiques pour éviter les fissures et prolonger la durée de vie de votre vitrage. Diagnostic gratuit à Montpellier.",
     image: "/pare-brise-neige.jpg",
     imageAlt: "Pare-brise recouvert de givre en hiver",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-20",
     readTime: "7 min",
     category: "Conseils",
@@ -261,7 +269,10 @@ export const blogPosts: BlogPost[] = [
       "lave-glace antigel",
       "pare-brise Montpellier hiver",
     ],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>L'hiver est une saison particulièrement délicate pour le pare-brise de votre véhicule. Même dans l'Hérault et le Gard, où le climat méditerranéen semble clément, les nuits froides et les matinées givrées mettent le vitrage à rude épreuve. Entre les chocs thermiques et les mauvaises pratiques de dégivrage, un simple impact peut rapidement se transformer en fissure nécessitant un <a href="/services/remplacement-pare-brise-montpellier">remplacement complet</a>.</p>
 
@@ -311,7 +322,7 @@ export const blogPosts: BlogPost[] = [
       <p>Un garage, même ouvert, protège votre véhicule du givre et des chocs thermiques. Si vous n'avez pas de garage, essayez de vous garer à l'abri d'un arbre ou d'un bâtiment qui limite l'exposition au froid rayonnant la nuit.</p>
 
       <h3>7. Faites réparer vos impacts avant l'hiver</h3>
-      <p>C'est le conseil le plus important. Un petit impact qui semblait anodin en été peut devenir une grande fissure avec les premiers gels. Chez EDEN GLASS, la <a href="/services/reparation-impact-pare-brise-montpellier">réparation d'impact</a> prend 30 minutes et coûte bien moins cher qu'un remplacement. N'attendez pas les premières gelées !</p>
+      <p>C'est le conseil le plus important. Un petit impact qui semblait anodin en été peut devenir une grande fissure avec les premiers gels. Chez Eden Glass, la <a href="/services/reparation-impact-pare-brise-montpellier">réparation d'impact</a> prend 30 minutes et coûte bien moins cher qu'un remplacement. N'attendez pas les premières gelées !</p>
 
       <h2>Cas particulier : l'hiver dans l'Hérault et le Gard</h2>
       <p>Le climat méditerranéen de Montpellier et de la région offre des hivers relativement doux. Pourtant, les risques pour le pare-brise sont bien réels :</p>
@@ -335,9 +346,9 @@ export const blogPosts: BlogPost[] = [
       <p>Oui, le contrôle technique examine l'état du pare-brise. Un impact dans le champ de vision du conducteur ou une fissure de plus de 30 cm constitue un <strong>défaillance majeure</strong> entraînant une contre-visite. Mieux vaut <a href="/blog/quand-reparer-ou-remplacer-pare-brise">réparer ou remplacer</a> avant le contrôle technique.</p>
 
       <h3>Mon assurance prend-elle en charge un pare-brise fissuré par le gel ?</h3>
-      <p>Oui, si votre contrat inclut la garantie bris de glace, la fissure due au gel est prise en charge. Chez EDEN GLASS, nous gérons l'intégralité des démarches avec votre assureur et offrons la franchise jusqu'à 300€*. Consultez notre <a href="/blog/assurance-bris-de-glace-guide-complet">guide de l'assurance bris de glace</a> pour tout savoir.</p>
+      <p>Oui, si votre contrat inclut la garantie bris de glace, la fissure due au gel est prise en charge. Chez Eden Glass, nous gérons l'intégralité des démarches avec votre assureur et offrons la franchise jusqu'à 300€*. Consultez notre <a href="/blog/assurance-bris-de-glace-guide-complet">guide de l'assurance bris de glace</a> pour tout savoir.</p>
 
-      <p><strong>Un impact sur votre pare-brise avant l'hiver ?</strong> Contactez EDEN GLASS au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic gratuit. Nous intervenons 7j/7 à Montpellier et dans tout l'Hérault (34) et le Gard (30).</p>
+      <p><strong>Un impact sur votre pare-brise avant l'hiver ?</strong> Contactez Eden Glass au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic gratuit. Nous intervenons 7j/7 à Montpellier et dans tout l'Hérault (34) et le Gard (30).</p>
     `,
   },
 
@@ -348,17 +359,26 @@ export const blogPosts: BlogPost[] = [
   // Article 1 : Éclat ou fissure
   {
     slug: "eclat-ou-fissure-evaluer-impact-pare-brise",
-    title: "Éclat ou fissure : comment évaluer un impact sur votre pare-brise ?",
+    title:
+      "Éclat ou fissure : comment évaluer un impact sur votre pare-brise ?",
     excerpt:
       "Apprenez à distinguer un simple éclat d'une fissure dangereuse. Guide pratique pour évaluer la gravité d'un impact et prendre la bonne décision.",
     image: "/impact-1.jpg",
     imageAlt: "Éclat et fissure sur un pare-brise vus de près",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-02-10",
     readTime: "6 min",
     category: "Conseils",
-    keywords: ["éclat pare-brise", "fissure pare-brise", "évaluer impact", "diagnostic vitrage"],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "éclat pare-brise",
+      "fissure pare-brise",
+      "évaluer impact",
+      "diagnostic vitrage",
+    ],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Vous venez de remarquer une marque sur votre pare-brise. Est-ce un simple éclat superficiel ou une fissure qui nécessite une intervention urgente ? Savoir évaluer correctement un impact peut vous faire économiser du temps et de l'argent, tout en préservant votre sécurité.</p>
 
@@ -406,7 +426,7 @@ export const blogPosts: BlogPost[] = [
       <p>Ce test n'est qu'indicatif : seul un professionnel peut donner un diagnostic définitif.</p>
 
       <h2>Quand consulter un professionnel ?</h2>
-      <p>Dans le doute, faites toujours examiner votre pare-brise par un expert. Chez EDEN GLASS, le diagnostic est gratuit et sans engagement. Nous vous donnons un avis honnête : si la réparation est possible et durable, nous la recommandons. Sinon, nous vous orientons vers le remplacement.</p>
+      <p>Dans le doute, faites toujours examiner votre pare-brise par un expert. Chez Eden Glass, le diagnostic est gratuit et sans engagement. Nous vous donnons un avis honnête : si la réparation est possible et durable, nous la recommandons. Sinon, nous vous orientons vers le remplacement.</p>
 
       <h2>Les erreurs à éviter</h2>
       <ul>
@@ -417,7 +437,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Un impact bien évalué, c'est une décision éclairée. N'hésitez pas à contacter EDEN GLASS pour un diagnostic gratuit. Nous intervenons rapidement à Montpellier et dans tout l'Hérault et le Gard, avec une prise en charge assurance simplifiée et la franchise offerte jusqu'à 300€*.</p>
+      <p>Un impact bien évalué, c'est une décision éclairée. N'hésitez pas à contacter Eden Glass pour un diagnostic gratuit. Nous intervenons rapidement à Montpellier et dans tout l'Hérault et le Gard, avec une prise en charge assurance simplifiée et la franchise offerte jusqu'à 300€.</p>
     `,
   },
 
@@ -429,12 +449,20 @@ export const blogPosts: BlogPost[] = [
       "Un petit impact peut rapidement devenir une grande fissure. Découvrez les 5 erreurs courantes à éviter pour préserver votre pare-brise.",
     image: "/impact-3.jpg",
     imageAlt: "Fissure se propageant depuis un impact non réparé",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-02-08",
     readTime: "5 min",
     category: "Conseils",
-    keywords: ["impact devient fissure", "erreurs pare-brise", "éviter fissure", "entretien vitrage"],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "impact devient fissure",
+      "erreurs pare-brise",
+      "éviter fissure",
+      "entretien vitrage",
+    ],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Vous avez un petit impact sur votre pare-brise et vous pensez pouvoir attendre ? Attention : certains comportements courants peuvent transformer un impact réparable en une fissure nécessitant un remplacement complet. Voici les 5 erreurs les plus fréquentes.</p>
 
@@ -483,7 +511,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Que faire si vous avez un impact ?</h2>
-      <p>La solution est simple : faites-le examiner rapidement par un professionnel. Chez EDEN GLASS, nous proposons un diagnostic gratuit et intervenons dans les 24-48h à Montpellier et dans tout l'Hérault et le Gard.</p>
+      <p>La solution est simple : faites-le examiner rapidement par un professionnel. Chez Eden Glass, nous proposons un diagnostic gratuit et intervenons dans les 24-48h à Montpellier et dans tout l'Hérault et le Gard.</p>
       <p>Si la réparation est possible, elle prend 30 minutes et votre pare-brise retrouve son intégrité structurelle. Si le remplacement est nécessaire, nous gérons tout avec votre assurance et offrons la franchise jusqu'à 300€*.</p>
     `,
   },
@@ -496,12 +524,20 @@ export const blogPosts: BlogPost[] = [
       "Un gravillon vient de percuter votre pare-brise ? Voici les gestes à adopter immédiatement et les erreurs à éviter pour limiter les dégâts.",
     image: "/impact-4.jpg",
     imageAlt: "Impact de gravillon sur un pare-brise",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-02-05",
     readTime: "4 min",
     category: "Urgences",
-    keywords: ["impact pare-brise que faire", "urgence pare-brise", "gravillon pare-brise", "premiers gestes"],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "prise-en-charge-assurance-pare-brise"],
+    keywords: [
+      "impact pare-brise que faire",
+      "urgence pare-brise",
+      "gravillon pare-brise",
+      "premiers gestes",
+    ],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "prise-en-charge-assurance-pare-brise",
+    ],
     content: `
       <p>« PAF ! » Ce bruit caractéristique d'un gravillon qui percute votre pare-brise, vous venez de l'entendre. Que faire maintenant ? Voici le guide des bons réflexes à adopter immédiatement.</p>
 
@@ -544,12 +580,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Étape 5 : Contactez un professionnel rapidement</h2>
       <p>N'attendez pas pour faire examiner votre pare-brise. Plus vite l'impact est traité, meilleures sont les chances de réparation (au lieu d'un remplacement).</p>
-      <p>Chez EDEN GLASS :</p>
+      <p>Chez Eden Glass :</p>
       <ul>
         <li>Diagnostic gratuit par téléphone ou en atelier</li>
         <li>Intervention sous 24-48h à Montpellier et environs</li>
         <li>Prise en charge complète de votre dossier assurance</li>
-        <li>Franchise offerte jusqu'à 300€*</li>
+        <li>franchise offerte jusqu'à 300€</li>
       </ul>
 
       <h2>Et si c'est une fissure ?</h2>
@@ -569,7 +605,7 @@ export const blogPosts: BlogPost[] = [
         <li>Évaluez et photographiez l'impact</li>
         <li>Protégez-le avec du scotch transparent (optionnel)</li>
         <li>Adaptez votre conduite</li>
-        <li>Contactez EDEN GLASS pour un diagnostic gratuit</li>
+        <li>Contactez Eden Glass pour un diagnostic gratuit</li>
       </ol>
       <p>Un impact traité rapidement = une réparation de 30 minutes. Un impact négligé = un remplacement de plusieurs heures et un coût plus élevé.</p>
     `,
@@ -583,12 +619,20 @@ export const blogPosts: BlogPost[] = [
       "Prix du remplacement de pare-brise : tous les facteurs qui influencent le coût, les tarifs moyens et comment réduire la facture grâce à votre assurance.",
     image: "/pare-brise.jpg",
     imageAlt: "Technicien remplaçant un pare-brise de voiture",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-02-03",
     readTime: "6 min",
     category: "Conseils",
-    keywords: ["prix pare-brise", "coût remplacement", "tarif vitrage", "devis pare-brise"],
-    relatedServices: ["remplacement-pare-brise-montpellier", "prise-en-charge-assurance-pare-brise"],
+    keywords: [
+      "prix pare-brise",
+      "coût remplacement",
+      "tarif vitrage",
+      "devis pare-brise",
+    ],
+    relatedServices: [
+      "remplacement-pare-brise-montpellier",
+      "prise-en-charge-assurance-pare-brise",
+    ],
     content: `
       <p>« Combien ça va me coûter ? » C'est la première question que se posent la plupart de nos clients. Le prix d'un remplacement de pare-brise varie considérablement selon plusieurs facteurs. Voici tout ce que vous devez savoir pour anticiper le coût et, surtout, comment le réduire.</p>
 
@@ -631,7 +675,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Équipementier de première monte</strong> : qualité équivalente, prix légèrement inférieur</li>
         <li><strong>Aftermarket premium</strong> : bon rapport qualité/prix, répond aux normes</li>
       </ul>
-      <p>Chez EDEN GLASS, nous utilisons exclusivement des vitrages homologués répondant aux normes européennes.</p>
+      <p>Chez Eden Glass, nous utilisons exclusivement des vitrages homologués répondant aux normes européennes.</p>
 
       <h2>Tableau récapitulatif des prix moyens</h2>
       <p>Voici les fourchettes de prix constatées à Montpellier (hors prise en charge assurance) :</p>
@@ -647,8 +691,8 @@ export const blogPosts: BlogPost[] = [
       <h3>La garantie bris de glace</h3>
       <p>Si vous avez souscrit la garantie bris de glace auprès de votre assurance auto, le remplacement est couvert. Vous ne payez généralement que la franchise, qui varie entre 50€ et 150€ selon les contrats.</p>
 
-      <h3>La franchise offerte par EDEN GLASS</h3>
-      <p>Chez EDEN GLASS, nous offrons la franchise jusqu'à 300€*. Concrètement :</p>
+      <h3>La franchise offerte par Eden Glass</h3>
+      <p>Chez Eden Glass, nous offrons la franchise jusqu'à 300€*. Concrètement :</p>
       <ul>
         <li>Si votre franchise est de 100€ : vous ne payez rien</li>
         <li>Si votre franchise est de 200€ : vous ne payez rien</li>
@@ -660,7 +704,7 @@ export const blogPosts: BlogPost[] = [
       <h3>La réparation plutôt que le remplacement</h3>
       <p>Si l'impact est réparable (petit, hors champ de vision), la réparation coûte entre 80 et 120€. Elle est souvent prise en charge à 100% par l'assurance, sans franchise ni malus.</p>
 
-      <h2>Les prestations incluses chez EDEN GLASS</h2>
+      <h2>Les prestations incluses chez Eden Glass</h2>
       <p>Nos tarifs comprennent toujours :</p>
       <ul>
         <li>Le déplacement à domicile ou sur lieu de travail</li>
@@ -691,12 +735,20 @@ export const blogPosts: BlogPost[] = [
       "Garantie bris de glace, franchise, tiers-payant : comprendre votre couverture assurance pour le pare-brise et faire valoir vos droits.",
     image: "/assurance.jpg",
     imageAlt: "Document assurance bris de glace pour pare-brise",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-30",
     readTime: "7 min",
     category: "Conseils",
-    keywords: ["assurance pare-brise", "bris de glace", "franchise vitrage", "garantie pare-brise"],
-    relatedServices: ["prise-en-charge-assurance-pare-brise", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "assurance pare-brise",
+      "bris de glace",
+      "franchise vitrage",
+      "garantie pare-brise",
+    ],
+    relatedServices: [
+      "prise-en-charge-assurance-pare-brise",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Votre pare-brise est endommagé et vous vous demandez comment fonctionne votre assurance ? Ce guide complet répond à toutes vos questions sur la garantie bris de glace, la franchise et la procédure de prise en charge.</p>
 
@@ -724,13 +776,13 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Vitres latérales et lunette arrière</strong> : mêmes conditions que le pare-brise</li>
       </ul>
 
-      <h3>La franchise offerte EDEN GLASS</h3>
-      <p>Chez EDEN GLASS, nous offrons votre franchise jusqu'à 300€*. Cela signifie que si votre franchise contractuelle est inférieure ou égale à 300€, vous ne payez rien du tout.</p>
+      <h3>La franchise offerte Eden Glass</h3>
+      <p>Chez Eden Glass, nous offrons votre franchise jusqu'à 300€*. Cela signifie que si votre franchise contractuelle est inférieure ou égale à 300€, vous ne payez rien du tout.</p>
       <p>Exemple concret :</p>
       <ul>
         <li>Coût du remplacement : 450€</li>
         <li>Prise en charge assurance : 450€ - 150€ (franchise) = 300€</li>
-        <li>Franchise offerte par EDEN GLASS : 150€</li>
+        <li>Franchise offerte par Eden Glass : 150€</li>
         <li><strong>Votre reste à charge : 0€</strong></li>
       </ul>
 
@@ -744,7 +796,7 @@ export const blogPosts: BlogPost[] = [
       <h3>1. Constatez les dégâts</h3>
       <p>Prenez des photos de l'impact ou de la fissure. Notez la date et les circonstances (gravillons sur autoroute, vandalisme, etc.).</p>
 
-      <h3>2. Contactez EDEN GLASS</h3>
+      <h3>2. Contactez Eden Glass</h3>
       <p>Appelez-nous ou remplissez notre formulaire en ligne. Nous vous demandons :</p>
       <ul>
         <li>Votre numéro d'immatriculation</li>
@@ -766,7 +818,7 @@ export const blogPosts: BlogPost[] = [
       <p>Une fois l'accord obtenu (généralement dans l'heure), nous intervenons sous 24 à 48h, à domicile ou sur votre lieu de travail.</p>
 
       <h2>Le tiers-payant : aucune avance de frais</h2>
-      <p>Chez EDEN GLASS, vous n'avez rien à avancer. Nous facturons directement votre assurance et déduisons la franchise offerte. Vous repartez avec un pare-brise neuf sans avoir déboursé un centime.</p>
+      <p>Chez Eden Glass, vous n'avez rien à avancer. Nous facturons directement votre assurance et déduisons la franchise offerte. Vous repartez avec un pare-brise neuf sans avoir déboursé un centime.</p>
 
       <h2>Délai pour déclarer un sinistre</h2>
       <p>Légalement, vous disposez de <strong>5 jours ouvrés</strong> pour déclarer un bris de glace à votre assurance. Cependant, nous vous conseillons de nous contacter dès que possible :</p>
@@ -788,7 +840,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Questions fréquentes</h2>
 
       <h3>Puis-je choisir mon réparateur ?</h3>
-      <p>Oui ! Contrairement à une idée reçue, vous n'êtes pas obligé de passer par le réseau de votre assurance. Vous êtes libre de choisir le professionnel de votre choix, comme EDEN GLASS.</p>
+      <p>Oui ! Contrairement à une idée reçue, vous n'êtes pas obligé de passer par le réseau de votre assurance. Vous êtes libre de choisir le professionnel de votre choix, comme Eden Glass.</p>
 
       <h3>Le calibrage ADAS est-il couvert ?</h3>
       <p>Oui, le calibrage des systèmes ADAS fait partie intégrante du remplacement et est couvert par la garantie bris de glace.</p>
@@ -806,12 +858,20 @@ export const blogPosts: BlogPost[] = [
       "Est-il légal de conduire avec un pare-brise endommagé ? Quelles sont les sanctions ? Découvrez ce que dit la loi et les risques encourus.",
     image: "/pare-brise-5.jpg",
     imageAlt: "Pare-brise fissuré compromettant la visibilité",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-28",
     readTime: "5 min",
     category: "Urgences",
-    keywords: ["pare-brise fissuré amende", "conduire pare-brise cassé", "loi vitrage", "contrôle technique"],
-    relatedServices: ["remplacement-pare-brise-montpellier", "reparation-impact-pare-brise-montpellier"],
+    keywords: [
+      "pare-brise fissuré amende",
+      "conduire pare-brise cassé",
+      "loi vitrage",
+      "contrôle technique",
+    ],
+    relatedServices: [
+      "remplacement-pare-brise-montpellier",
+      "reparation-impact-pare-brise-montpellier",
+    ],
     content: `
       <p>Vous avez une fissure sur votre pare-brise et vous vous demandez si vous pouvez continuer à rouler ? Voici ce que dit la loi française et les risques que vous encourez.</p>
 
@@ -869,11 +929,11 @@ export const blogPosts: BlogPost[] = [
       <p>Attention : cette tolérance n'est pas une règle absolue et dépend de l'appréciation du contrôleur.</p>
 
       <h2>Que faire si vous avez une fissure ?</h2>
-      <p>La seule solution sûre et légale est de <strong>faire remplacer votre pare-brise rapidement</strong>. Chez EDEN GLASS :</p>
+      <p>La seule solution sûre et légale est de <strong>faire remplacer votre pare-brise rapidement</strong>. Chez Eden Glass :</p>
       <ul>
         <li>Intervention sous 24 à 48h</li>
         <li>Prise en charge assurance complète</li>
-        <li>Franchise offerte jusqu'à 300€*</li>
+        <li>franchise offerte jusqu'à 300€</li>
         <li>Déplacement à domicile ou sur lieu de travail</li>
       </ul>
       <p>N'attendez pas le contrôle technique ou un contrôle routier pour agir. Plus vous tardez, plus la fissure risque de s'agrandir.</p>
@@ -889,7 +949,7 @@ export const blogPosts: BlogPost[] = [
       <p>Un impact de plus de 3 cm ou une fissure dans la zone de vision = contre-visite obligatoire.</p>
 
       <h2>Conclusion</h2>
-      <p>Ne prenez pas de risques avec votre pare-brise. Les amendes sont le moindre des problèmes : c'est votre sécurité et celle de vos passagers qui est en jeu. Contactez EDEN GLASS dès aujourd'hui pour un diagnostic gratuit et une intervention rapide.</p>
+      <p>Ne prenez pas de risques avec votre pare-brise. Les amendes sont le moindre des problèmes : c'est votre sécurité et celle de vos passagers qui est en jeu. Contactez Eden Glass dès aujourd'hui pour un diagnostic gratuit et une intervention rapide.</p>
     `,
   },
 
@@ -901,12 +961,20 @@ export const blogPosts: BlogPost[] = [
       "Les véhicules électriques comme Tesla ont des pare-brises spécifiques. Découvrez leurs particularités et les précautions à prendre pour le remplacement.",
     image: "/tesla.jpg",
     imageAlt: "Pare-brise Tesla avec capteurs et caméra ADAS",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-25",
     readTime: "6 min",
     category: "Technologie",
-    keywords: ["tesla pare-brise", "véhicule électrique vitrage", "remplacement pare-brise tesla", "ADAS tesla"],
-    relatedServices: ["calibrage-camera-adas-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "tesla pare-brise",
+      "véhicule électrique vitrage",
+      "remplacement pare-brise tesla",
+      "ADAS tesla",
+    ],
+    relatedServices: [
+      "calibrage-camera-adas-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Les véhicules électriques, et Tesla en particulier, révolutionnent l'automobile. Mais leurs pare-brises sont aussi très différents des véhicules traditionnels. Voici ce que vous devez savoir si vous possédez une Tesla ou un autre véhicule électrique.</p>
 
@@ -946,7 +1014,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Calibrage statique</strong> : avec un équipement de diagnostic spécifique Tesla</li>
         <li><strong>Auto-calibrage dynamique</strong> : la voiture se recalibre en roulant (30-50 km de conduite variée)</li>
       </ol>
-      <p>Chez EDEN GLASS, nous disposons des outils de diagnostic Tesla et effectuons le calibrage statique. L'auto-calibrage dynamique se fait ensuite naturellement lors de vos trajets.</p>
+      <p>Chez Eden Glass, nous disposons des outils de diagnostic Tesla et effectuons le calibrage statique. L'auto-calibrage dynamique se fait ensuite naturellement lors de vos trajets.</p>
 
       <h2>Les autres véhicules électriques</h2>
       <p>Tesla n'est pas le seul constructeur à proposer des pare-brises technologiques. Voici les particularités des autres marques :</p>
@@ -1004,7 +1072,7 @@ export const blogPosts: BlogPost[] = [
       <h3>3. Le calibrage professionnel</h3>
       <p>Ne faites jamais l'impasse sur le calibrage. Un défaut de calibrage peut avoir des conséquences graves sur la sécurité et le comportement du véhicule.</p>
 
-      <h2>EDEN GLASS et les véhicules électriques</h2>
+      <h2>Eden Glass et les véhicules électriques</h2>
       <p>Notre équipe est formée aux spécificités des véhicules électriques. Nous intervenons régulièrement sur :</p>
       <ul>
         <li>Tesla Model 3, Model Y, Model S, Model X</li>
@@ -1027,12 +1095,20 @@ export const blogPosts: BlogPost[] = [
       "Qu'est-ce que le calibrage ADAS ? Pourquoi est-il obligatoire après un remplacement de pare-brise ? Tout savoir sur cette étape cruciale.",
     image: "/adas.jpg",
     imageAlt: "Caméra ADAS intégrée au pare-brise d'un véhicule",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-22",
     readTime: "7 min",
     category: "Technologie",
-    keywords: ["calibrage ADAS", "caméra pare-brise", "systèmes aide conduite", "calibrage caméra"],
-    relatedServices: ["calibrage-camera-adas-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "calibrage ADAS",
+      "caméra pare-brise",
+      "systèmes aide conduite",
+      "calibrage caméra",
+    ],
+    relatedServices: [
+      "calibrage-camera-adas-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>ADAS, calibrage, caméra frontale... Ces termes reviennent souvent quand on parle de remplacement de pare-brise moderne. Mais que signifient-ils exactement ? Ce guide vous explique tout sur le calibrage ADAS.</p>
 
@@ -1122,7 +1198,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Calibrage mixte</h3>
       <p>Certains constructeurs exigent les deux types de calibrage successivement. C'est le cas de nombreux véhicules premium (Mercedes, BMW, Audi) et de Tesla.</p>
 
-      <h2>Comment se passe le calibrage chez EDEN GLASS ?</h2>
+      <h2>Comment se passe le calibrage chez Eden Glass ?</h2>
       <ol>
         <li>Nous identifions le type de calibrage requis pour votre véhicule</li>
         <li>Le pare-brise est remplacé et la caméra repositionnée</li>
@@ -1160,12 +1236,20 @@ export const blogPosts: BlogPost[] = [
       "Chaleur intense, soleil de plomb, sable... L'été dans le Sud met votre pare-brise à rude épreuve. Nos conseils pour le protéger.",
     image: "/pare-soleil.jpg",
     imageAlt: "Voiture exposée au soleil méditerranéen en été",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-20",
     readTime: "5 min",
     category: "Local",
-    keywords: ["pare-brise été", "chaleur pare-brise", "soleil vitrage", "protection été"],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "pare-brise été",
+      "chaleur pare-brise",
+      "soleil vitrage",
+      "protection été",
+    ],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Avec des températures qui dépassent régulièrement les 35°C et un soleil intense, l'été méditerranéen est particulièrement éprouvant pour votre pare-brise. Voici comment le protéger et éviter les mauvaises surprises.</p>
 
@@ -1234,9 +1318,9 @@ export const blogPosts: BlogPost[] = [
         <li>Si un gravillon vous touche, faites examiner l'impact rapidement</li>
       </ul>
 
-      <h2>EDEN GLASS à votre service tout l'été</h2>
+      <h2>Eden Glass à votre service tout l'été</h2>
       <p>Notre équipe est renforcée pendant la période estivale pour répondre à la demande. Nous intervenons rapidement dans tout l'Hérault et le Gard, y compris dans les stations balnéaires.</p>
-      <p>Que vous soyez résident ou en vacances dans la région, contactez-nous pour un diagnostic gratuit ou une intervention rapide. Franchise offerte jusqu'à 300€* !</p>
+      <p>Que vous soyez résident ou en vacances dans la région, contactez-nous pour un diagnostic gratuit ou une intervention rapide. franchise offerte jusqu'à 300€ !</p>
     `,
   },
 
@@ -1248,12 +1332,20 @@ export const blogPosts: BlogPost[] = [
       "A9, A750, nationales... Certaines routes de l'Hérault sont plus dangereuses que d'autres pour votre pare-brise. Découvrez les zones à risque.",
     image: "/road.jpg",
     imageAlt: "Route de l'Hérault avec gravillons et risques d'impact",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2025-01-18",
     readTime: "5 min",
     category: "Local",
-    keywords: ["pare-brise A9", "gravillons autoroute", "routes Hérault", "impact autoroute"],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    keywords: [
+      "pare-brise A9",
+      "gravillons autoroute",
+      "routes Hérault",
+      "impact autoroute",
+    ],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>En tant qu'experts du vitrage automobile à Montpellier, nous connaissons bien les routes de l'Hérault et du Gard. Certains axes sont particulièrement propices aux impacts de gravillons. Voici notre carte des zones à risque.</p>
 
@@ -1318,7 +1410,7 @@ export const blogPosts: BlogPost[] = [
         <li>Garez-vous en sécurité dès que possible</li>
         <li>Évaluez l'impact (taille, emplacement)</li>
         <li>Prenez une photo</li>
-        <li>Contactez EDEN GLASS pour un diagnostic gratuit</li>
+        <li>Contactez Eden Glass pour un diagnostic gratuit</li>
       </ol>
       <p>Nous intervenons rapidement dans tout l'Hérault et le Gard. Si l'impact est réparable, nous pouvons intervenir sous 24h. Si le remplacement est nécessaire, nous gérons tout avec votre assurance et offrons la franchise jusqu'à 300€*.</p>
 
@@ -1334,7 +1426,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Connaître les zones à risque permet d'adapter sa conduite et de réduire les risques d'impact. Mais même en étant prudent, un gravillon peut survenir à tout moment. L'important est de réagir rapidement : un impact traité dans les 48h est souvent réparable. Au-delà, il peut se transformer en fissure.</p>
-      <p>EDEN GLASS est votre partenaire de proximité pour tous vos besoins en vitrage automobile dans l'Hérault et le Gard. Contactez-nous !</p>
+      <p>Eden Glass est votre partenaire de proximité pour tous vos besoins en vitrage automobile dans l'Hérault et le Gard. Contactez-nous !</p>
     `,
   },
 
@@ -1349,8 +1441,9 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Impact, fissure, éclat… comment savoir si votre pare-brise doit être réparé ou remplacé ? Suivez notre arbre de décision étape par étape pour prendre la bonne décision rapidement.",
     image: "/impact-5.jpg",
-    imageAlt: "Évaluation d'un impact sur pare-brise pour décision de réparation",
-    author: "EDEN GLASS",
+    imageAlt:
+      "Évaluation d'un impact sur pare-brise pour décision de réparation",
+    author: "Eden Glass",
     date: "2026-02-10",
     readTime: "7 min",
     category: "Conseils",
@@ -1363,7 +1456,10 @@ export const blogPosts: BlogPost[] = [
       "diagnostic pare-brise",
       "pare-brise Montpellier",
     ],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Face à un pare-brise endommagé, la question revient toujours : faut-il <a href="/services/reparation-impact-pare-brise-montpellier">réparer</a> ou <a href="/services/remplacement-pare-brise-montpellier">remplacer</a> ? La réponse dépend de plusieurs critères précis. Voici un arbre de décision complet pour vous guider étape par étape.</p>
 
@@ -1427,12 +1523,12 @@ export const blogPosts: BlogPost[] = [
       <p>En termes de budget, la différence est significative :</p>
       <ul>
         <li><strong>Réparation</strong> : 60 à 90€, souvent prise en charge à 100% par l'assurance sans franchise</li>
-        <li><strong>Remplacement</strong> : 300 à 800€ selon le véhicule. Avec EDEN GLASS, nous offrons la franchise jusqu'à 300€* et il n'y a pas d'avance de frais</li>
+        <li><strong>Remplacement</strong> : 300 à 800€ selon le véhicule. Avec Eden Glass, nous offrons la franchise jusqu'à 300€* et il n'y a pas d'avance de frais</li>
       </ul>
       <p>Pour un détail complet des tarifs, consultez notre article sur le <a href="/blog/cout-remplacement-pare-brise-tarifs">coût d'un remplacement de pare-brise</a>.</p>
 
       <h2>Dans le doute, faites diagnostiquer</h2>
-      <p>Si après avoir suivi cet arbre de décision vous n'êtes toujours pas sûr, c'est normal. Certains cas sont à la limite entre réparation et remplacement. Chez EDEN GLASS, nous proposons un <strong>diagnostic gratuit</strong> pour vous donner une réponse claire et honnête.</p>
+      <p>Si après avoir suivi cet arbre de décision vous n'êtes toujours pas sûr, c'est normal. Certains cas sont à la limite entre réparation et remplacement. Chez Eden Glass, nous proposons un <strong>diagnostic gratuit</strong> pour vous donner une réponse claire et honnête.</p>
       <p>Nous intervenons dans tout l'Hérault et le Gard, à domicile ou sur votre lieu de travail. Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a> pour un avis rapide.</p>
     `,
   },
@@ -1445,7 +1541,7 @@ export const blogPosts: BlogPost[] = [
       "Vitre de voiture cassée suite à une effraction ou un accident ? Découvrez les gestes d'urgence, les démarches assurance et comment faire remplacer votre vitre rapidement.",
     image: "/vitre.jpg",
     imageAlt: "Vitre latérale de voiture brisée",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-02-08",
     readTime: "6 min",
     category: "Urgences",
@@ -1458,7 +1554,10 @@ export const blogPosts: BlogPost[] = [
       "vitre latérale prix",
       "vitrage automobile Montpellier",
     ],
-    relatedServices: ["remplacement-vitre-voiture-montpellier", "prise-en-charge-assurance-pare-brise"],
+    relatedServices: [
+      "remplacement-vitre-voiture-montpellier",
+      "prise-en-charge-assurance-pare-brise",
+    ],
     content: `
       <p>Découvrir sa vitre latérale cassée est toujours un choc, que ce soit après une tentative d'effraction, un acte de vandalisme ou un accident. Contrairement au pare-brise en verre feuilleté, les vitres latérales sont en verre trempé : elles se brisent en milliers de petits morceaux. Voici les bons réflexes à adopter immédiatement.</p>
 
@@ -1510,7 +1609,7 @@ export const blogPosts: BlogPost[] = [
       <p>Notre recommandation : limitez vos trajets au strict nécessaire et faites remplacer la vitre le plus vite possible.</p>
 
       <h2>Le remplacement de la vitre latérale</h2>
-      <p>Chez EDEN GLASS, nous remplaçons tous les types de vitres latérales :</p>
+      <p>Chez Eden Glass, nous remplaçons tous les types de vitres latérales :</p>
       <ul>
         <li><strong>Vitres avant</strong> (conducteur et passager) : les plus fréquemment ciblées lors des effractions</li>
         <li><strong>Vitres arrière</strong> : souvent coulissantes sur certains modèles</li>
@@ -1535,7 +1634,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Vitre teintée d'origine</strong> : supplément de 30 à 80€</li>
         <li><strong>Vitre avec fonction spéciale</strong> (dégivrage, anti-UV) : supplément variable</li>
       </ul>
-      <p>Avec une garantie bris de glace, ces frais sont pris en charge. Chez EDEN GLASS, nous gérons directement le dossier avec votre assureur et nous offrons la franchise jusqu'à 300€*.</p>
+      <p>Avec une garantie bris de glace, ces frais sont pris en charge. Chez Eden Glass, nous gérons directement le dossier avec votre assureur et nous offrons la franchise jusqu'à 300€*.</p>
 
       <h2>Prévenir les effractions</h2>
       <p>Quelques conseils pour réduire les risques :</p>
@@ -1546,7 +1645,7 @@ export const blogPosts: BlogPost[] = [
         <li>Installez une alarme ou un système de détection</li>
       </ul>
 
-      <h2>EDEN GLASS intervient en urgence</h2>
+      <h2>Eden Glass intervient en urgence</h2>
       <p>Une vitre cassée ne peut pas attendre. Nous intervenons rapidement dans tout l'Hérault et le Gard pour le <a href="/services/remplacement-vitre-voiture-montpellier">remplacement de votre vitre latérale</a>. Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>, nous sommes disponibles 7j/7 de 9h à 19h.</p>
     `,
   },
@@ -1559,7 +1658,7 @@ export const blogPosts: BlogPost[] = [
       "Votre lunette arrière est fissurée ou cassée ? Découvrez les particularités du remplacement d'une lunette arrière avec dégivrage intégré : fils chauffants, coût et précautions.",
     image: "/lunette-arriere.jpg",
     imageAlt: "Lunette arrière de voiture avec fils de dégivrage intégrés",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-02-06",
     readTime: "6 min",
     category: "Conseils",
@@ -1572,7 +1671,10 @@ export const blogPosts: BlogPost[] = [
       "dégivrage arrière en panne",
       "vitrage automobile Montpellier",
     ],
-    relatedServices: ["remplacement-lunette-arriere-montpellier", "prise-en-charge-assurance-pare-brise"],
+    relatedServices: [
+      "remplacement-lunette-arriere-montpellier",
+      "prise-en-charge-assurance-pare-brise",
+    ],
     content: `
       <p>La lunette arrière de votre véhicule joue un rôle essentiel dans la visibilité et la sécurité. Quand elle est équipée d'un système de dégivrage (fils chauffants intégrés), son <a href="/services/remplacement-lunette-arriere-montpellier">remplacement</a> demande une attention particulière. Voici tout ce que vous devez savoir.</p>
 
@@ -1617,7 +1719,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h3>Étanchéité</h3>
-      <p>Un collage ou un joint mal posé peut entraîner des infiltrations d'eau dans le coffre. Chez EDEN GLASS, nous testons systématiquement l'étanchéité après chaque remplacement.</p>
+      <p>Un collage ou un joint mal posé peut entraîner des infiltrations d'eau dans le coffre. Chez Eden Glass, nous testons systématiquement l'étanchéité après chaque remplacement.</p>
 
       <h2>Mon dégivrage ne fonctionne plus : faut-il changer la vitre ?</h2>
       <p>Pas nécessairement. Si la vitre est intacte mais que le dégivrage est en panne, plusieurs causes sont possibles :</p>
@@ -1648,7 +1750,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>La bonne nouvelle : le remplacement de la lunette arrière est couvert par la garantie bris de glace de votre assurance, au même titre que le pare-brise. Consultez notre <a href="/blog/assurance-bris-de-glace-guide-complet">guide complet sur l'assurance bris de glace</a> pour les détails.</p>
 
-      <h2>EDEN GLASS : remplacement et garantie</h2>
+      <h2>Eden Glass : remplacement et garantie</h2>
       <p>Nous intervenons pour le remplacement de toutes les lunettes arrière, avec ou sans dégivrage, dans l'Hérault et le Gard. Notre intervention comprend :</p>
       <ul>
         <li>Dépose soignée de l'ancienne vitre et des garnitures</li>
@@ -1669,7 +1771,7 @@ export const blogPosts: BlogPost[] = [
       "Pare-brise plus grand, ADAS avancés, vitrage acoustique… les SUV et 4x4 ont des besoins spécifiques en matière de vitrage. Découvrez ce qui change pour votre véhicule.",
     image: "/suv.jpg",
     imageAlt: "SUV avec pare-brise panoramique et vitrage spécifique",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-02-04",
     readTime: "7 min",
     category: "Technologie",
@@ -1682,7 +1784,10 @@ export const blogPosts: BlogPost[] = [
       "ADAS SUV",
       "pare-brise Montpellier",
     ],
-    relatedServices: ["remplacement-pare-brise-montpellier", "calibrage-camera-adas-montpellier"],
+    relatedServices: [
+      "remplacement-pare-brise-montpellier",
+      "calibrage-camera-adas-montpellier",
+    ],
     content: `
       <p>Les SUV et 4x4 représentent aujourd'hui plus de 40% des ventes de voitures neuves en France. Peugeot 3008, Renault Austral, Dacia Duster, Citroën C5 Aircross… ces véhicules ont des spécificités en matière de vitrage qui méritent d'être connues, surtout au moment d'un <a href="/services/remplacement-pare-brise-montpellier">remplacement de pare-brise</a>.</p>
 
@@ -1745,8 +1850,8 @@ export const blogPosts: BlogPost[] = [
         <li>Disponibilité de la pièce (modèles récents ou rares)</li>
       </ul>
 
-      <h2>EDEN GLASS : spécialiste tous véhicules</h2>
-      <p>Chez EDEN GLASS, nous intervenons sur tous les SUV et 4x4, quelle que soit la marque. Notre équipement de calibrage ADAS professionnel nous permet de recalibrer les caméras de la plupart des modèles du marché.</p>
+      <h2>Eden Glass : spécialiste tous véhicules</h2>
+      <p>Chez Eden Glass, nous intervenons sur tous les SUV et 4x4, quelle que soit la marque. Notre équipement de calibrage ADAS professionnel nous permet de recalibrer les caméras de la plupart des modèles du marché.</p>
       <p>Nous intervenons à domicile ou sur votre lieu de travail dans l'Hérault et le Gard. Avec la <a href="/services/prise-en-charge-assurance-pare-brise">prise en charge assurance</a>, vous n'avez pas d'avance de frais et nous offrons la franchise jusqu'à 300€*.</p>
       <p>Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a> pour un devis adapté à votre SUV.</p>
     `,
@@ -1760,7 +1865,7 @@ export const blogPosts: BlogPost[] = [
       "Les orages de grêle peuvent causer des dégâts considérables sur votre pare-brise. Découvrez comment vous protéger, que faire après un épisode de grêle et comment votre assurance vous couvre.",
     image: "/grele.jpg",
     imageAlt: "Impacts de grêle sur le pare-brise d'une voiture",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-02-02",
     readTime: "7 min",
     category: "Urgences",
@@ -1773,7 +1878,10 @@ export const blogPosts: BlogPost[] = [
       "prévention grêle véhicule",
       "tempête Montpellier",
     ],
-    relatedServices: ["remplacement-pare-brise-montpellier", "prise-en-charge-assurance-pare-brise"],
+    relatedServices: [
+      "remplacement-pare-brise-montpellier",
+      "prise-en-charge-assurance-pare-brise",
+    ],
     content: `
       <p>La région Occitanie est particulièrement exposée aux orages de grêle, surtout entre mai et septembre. En 2022, l'épisode de grêle dans le Gard a causé des millions d'euros de dégâts automobiles. Votre pare-brise est en première ligne face aux grêlons. Voici comment anticiper, réagir et faire jouer votre assurance.</p>
 
@@ -1858,7 +1966,7 @@ export const blogPosts: BlogPost[] = [
         <li>Ne tardez pas : les impacts de grêle sur un pare-brise peuvent se transformer en fissures avec les changements de température</li>
       </ul>
 
-      <h2>EDEN GLASS vous accompagne</h2>
+      <h2>Eden Glass vous accompagne</h2>
       <p>Après un épisode de grêle, nous mobilisons nos équipes pour intervenir le plus rapidement possible. Nous gérons intégralement votre dossier assurance et offrons la franchise jusqu'à 300€*.</p>
       <p>Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>, disponibles 7j/7 de 9h à 19h dans tout l'Hérault et le Gard.</p>
     `,
@@ -1872,7 +1980,7 @@ export const blogPosts: BlogPost[] = [
       "Traces de calcaire, résidus d'insectes, film gras… découvrez comment nettoyer votre pare-brise efficacement sans risquer de le rayer ou d'aggraver un impact existant.",
     image: "/nettoyage-pare-brise.jpg",
     imageAlt: "Nettoyage soigné d'un pare-brise automobile",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-30",
     readTime: "6 min",
     category: "Conseils",
@@ -1972,19 +2080,20 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Un pare-brise propre, c'est un pare-brise sûr</h2>
-      <p>Prenez l'habitude d'un nettoyage régulier et adapté. Votre visibilité sera meilleure, vos essuie-glaces dureront plus longtemps, et vous détecterez plus facilement un éventuel impact à faire traiter. Chez EDEN GLASS, nous intervenons dans tout l'Hérault et le Gard pour tous vos besoins en vitrage automobile. Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>.</p>
+      <p>Prenez l'habitude d'un nettoyage régulier et adapté. Votre visibilité sera meilleure, vos essuie-glaces dureront plus longtemps, et vous détecterez plus facilement un éventuel impact à faire traiter. Chez Eden Glass, nous intervenons dans tout l'Hérault et le Gard pour tous vos besoins en vitrage automobile. Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>.</p>
     `,
   },
 
   // Article 17 : Film teinté sur vitre : réglementation française
   {
     slug: "film-teinte-vitre-reglementation-francaise",
-    title: "Film teinté sur vitre : réglementation française et ce que vous risquez",
+    title:
+      "Film teinté sur vitre : réglementation française et ce que vous risquez",
     excerpt:
       "Quels films teintés sont autorisés en France ? Vitres avant, arrière, pare-brise : découvrez la réglementation en vigueur, les sanctions et les alternatives légales.",
     image: "/film-teinte-vitre.jpg",
     imageAlt: "Film teinté posé sur une vitre latérale de voiture",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-28",
     readTime: "7 min",
     category: "Technologie",
@@ -2084,7 +2193,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Sanctions</strong> : 135€ + 3 points pour non-conformité sur les vitres avant</li>
         <li><strong>Conseil</strong> : privilégiez les films anti-UV et anti-chaleur conformes sur l'avant, et teintez l'arrière selon vos préférences</li>
       </ul>
-      <p>Pour toute question sur le vitrage de votre véhicule, contactez EDEN GLASS au <a href="tel:0749571480">07 49 57 14 80</a>. Nous intervenons dans tout l'Hérault et le Gard.</p>
+      <p>Pour toute question sur le vitrage de votre véhicule, contactez Eden Glass au <a href="tel:0749571480">07 49 57 14 80</a>. Nous intervenons dans tout l'Hérault et le Gard.</p>
     `,
   },
 
@@ -2096,7 +2205,7 @@ export const blogPosts: BlogPost[] = [
       "Vous avez un impact ou une fissure sur le pare-brise d'une voiture de location ? Découvrez qui est responsable, comment gérer la situation et quelles assurances vous couvrent.",
     image: "/impact-6.jpg",
     imageAlt: "Impact sur le pare-brise d'une voiture de location",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-26",
     readTime: "6 min",
     category: "Conseils",
@@ -2108,7 +2217,10 @@ export const blogPosts: BlogPost[] = [
       "responsabilité dommage location",
       "pare-brise voiture louée",
     ],
-    relatedServices: ["prise-en-charge-assurance-pare-brise", "reparation-impact-pare-brise-montpellier"],
+    relatedServices: [
+      "prise-en-charge-assurance-pare-brise",
+      "reparation-impact-pare-brise-montpellier",
+    ],
     content: `
       <p>Vous avez loué une voiture pour les vacances dans le sud ou un déplacement professionnel, et un gravillon a percuté le pare-brise ? C'est une situation plus fréquente qu'on ne le pense, surtout sur les routes de l'Hérault et du Gard en période estivale. Voici comment gérer la situation sereinement.</p>
 
@@ -2206,7 +2318,7 @@ export const blogPosts: BlogPost[] = [
         <li>Conservez tous les documents et preuves</li>
         <li>Sur les routes de l'Hérault et du Gard en été, augmentez les distances de sécurité</li>
       </ol>
-      <p>Pour toute question sur la prise en charge assurance de votre pare-brise, contactez EDEN GLASS au <a href="tel:0749571480">07 49 57 14 80</a>. Nous gérons les dossiers pour les <a href="/services/prise-en-charge-assurance-pare-brise">particuliers et professionnels</a>.</p>
+      <p>Pour toute question sur la prise en charge assurance de votre pare-brise, contactez Eden Glass au <a href="tel:0749571480">07 49 57 14 80</a>. Nous gérons les dossiers pour les <a href="/services/prise-en-charge-assurance-pare-brise">particuliers et professionnels</a>.</p>
     `,
   },
 
@@ -2218,7 +2330,7 @@ export const blogPosts: BlogPost[] = [
       "Vous vivez ou circulez sur le littoral héraultais ou gardois ? Découvrez comment le sel marin affecte votre pare-brise et vos vitrages, et les gestes pour les protéger.",
     image: "/salt-road.jpg",
     imageAlt: "Route côtière méditerranéenne exposée au sel marin",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-24",
     readTime: "5 min",
     category: "Local",
@@ -2232,7 +2344,10 @@ export const blogPosts: BlogPost[] = [
       "Sète vitrage automobile",
       "côte méditerranéenne",
     ],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>De Palavas-les-Flots au Grau-du-Roi, en passant par Carnon, Frontignan et Sète, le littoral méditerranéen de l'Hérault et du Gard offre un cadre de vie exceptionnel. Mais l'air marin chargé de sel a des effets concrets sur votre véhicule, et votre pare-brise n'est pas épargné. Voici ce que vous devez savoir.</p>
 
@@ -2309,9 +2424,9 @@ export const blogPosts: BlogPost[] = [
         <li>Un impact qui semble s'agrandir</li>
       </ul>
 
-      <h2>EDEN GLASS sur tout le littoral</h2>
+      <h2>Eden Glass sur tout le littoral</h2>
       <p>Nous intervenons dans toutes les communes du littoral héraultais et gardois. Que vous soyez à Palavas, Sète, La Grande-Motte ou Le Grau-du-Roi, nous venons à votre domicile pour diagnostiquer et traiter votre vitrage.</p>
-      <p>Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>, disponibles 7j/7 de 9h à 19h. Franchise offerte jusqu'à 300€*.</p>
+      <p>Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>, disponibles 7j/7 de 9h à 19h. franchise offerte jusqu'à 300€.</p>
     `,
   },
 
@@ -2320,10 +2435,10 @@ export const blogPosts: BlogPost[] = [
     slug: "nimes-montpellier-guide-navetteur",
     title: "Nîmes-Montpellier : guide du navetteur pour votre pare-brise",
     excerpt:
-      "Vous faites la navette entre Nîmes et Montpellier sur l'A9 ? Découvrez les zones à risque pour votre pare-brise, les bons réflexes et comment EDEN GLASS vous accompagne sur tout le trajet.",
+      "Vous faites la navette entre Nîmes et Montpellier sur l'A9 ? Découvrez les zones à risque pour votre pare-brise, les bons réflexes et comment Eden Glass vous accompagne sur tout le trajet.",
     image: "/autoroute.jpg",
     imageAlt: "Autoroute A9 entre Nîmes et Montpellier",
-    author: "EDEN GLASS",
+    author: "Eden Glass",
     date: "2026-01-22",
     readTime: "6 min",
     category: "Local",
@@ -2336,7 +2451,10 @@ export const blogPosts: BlogPost[] = [
       "pare-brise Montpellier",
       "gravillons autoroute",
     ],
-    relatedServices: ["reparation-impact-pare-brise-montpellier", "remplacement-pare-brise-montpellier"],
+    relatedServices: [
+      "reparation-impact-pare-brise-montpellier",
+      "remplacement-pare-brise-montpellier",
+    ],
     content: `
       <p>Chaque jour, des milliers de navetteurs parcourent les 50 kilomètres qui séparent Nîmes de Montpellier. L'A9, surnommée « La Languedocienne », est l'une des autoroutes les plus fréquentées de France, et l'une des plus à risque pour votre pare-brise. Voici le guide pratique pour les conducteurs qui font ce trajet au quotidien.</p>
 
@@ -2403,18 +2521,18 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Ne paniquez pas</strong> : continuez à conduire normalement</li>
         <li><strong>Arrêtez-vous sur la prochaine aire de repos</strong> (pas sur la bande d'arrêt d'urgence, sauf urgence absolue)</li>
         <li><strong>Évaluez le dommage</strong> et prenez une photo</li>
-        <li><strong>Appelez EDEN GLASS</strong> au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic rapide</li>
+        <li><strong>Appelez Eden Glass</strong> au <a href="tel:0749571480">07 49 57 14 80</a> pour un diagnostic rapide</li>
       </ol>
       <p>Un impact traité dans les 48h est presque toujours réparable (30 minutes, souvent sans franchise). Plus vous attendez, plus le risque de fissure augmente, surtout avec les vibrations quotidiennes du trajet sur autoroute.</p>
 
-      <h2>EDEN GLASS : couvre tout le trajet Nîmes-Montpellier</h2>
+      <h2>Eden Glass : couvre tout le trajet Nîmes-Montpellier</h2>
       <p>Que vous habitiez à Nîmes, Lunel, Montpellier ou dans les communes le long du trajet, nous intervenons à votre domicile ou sur votre lieu de travail :</p>
       <ul>
         <li><strong>Côté Gard</strong> : Nîmes, Vauvert, Saint-Gilles, Beaucaire, Lunel</li>
         <li><strong>Côté Hérault</strong> : Montpellier, Castelnau-le-Lez, Lattes, Saint-Jean-de-Védas, Le Crès, Jacou</li>
         <li><strong>Sur le trajet</strong> : nous pouvons intervenir sur votre lieu de travail, que ce soit à Nîmes ou à Montpellier</li>
       </ul>
-      <p>Avec la <a href="/services/prise-en-charge-assurance-pare-brise">prise en charge assurance</a>, pas d'avance de frais et franchise offerte jusqu'à 300€*. Un impact réparé pendant votre journée de travail, c'est la solution idéale pour ne pas perdre de temps.</p>
+      <p>Avec la <a href="/services/prise-en-charge-assurance-pare-brise">prise en charge assurance</a>, pas d'avance de frais et franchise offerte jusqu'à 300€. Un impact réparé pendant votre journée de travail, c'est la solution idéale pour ne pas perdre de temps.</p>
       <p>Appelez-nous au <a href="tel:0749571480">07 49 57 14 80</a>, disponibles 7j/7 de 9h à 19h.</p>
     `,
   },

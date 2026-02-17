@@ -4,9 +4,10 @@ import path from "path";
 import Markdown from "react-markdown";
 
 export const metadata: Metadata = {
-  title: "Mentions Légales | Eden Glass",
+  title: "Mentions Légales",
   description:
-    "Mentions légales du site edenglass.fr – Éditeur, hébergeur, propriété intellectuelle et protection des données personnelles.",
+    "Mentions légales du site edenglass.fr : éditeur, hébergeur, propriété intellectuelle et protection des données personnelles.",
+  robots: { index: false, follow: true },
 };
 
 const content = fs.readFileSync(

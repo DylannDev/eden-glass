@@ -4,9 +4,10 @@ import { Phone, Mail, Clock } from "lucide-react";
 import ContactForm from "@/components/home/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact | EDEN GLASS - Devis Gratuit Pare-Brise Montpellier Nîmes",
+  title: "Devis Gratuit Pare-Brise Montpellier & Nîmes",
   description:
-    "Contactez EDEN GLASS pour un devis gratuit. Remplacement et réparation de pare-brise dans l'Hérault et le Gard. ☎️ 07 49 57 14 80",
+    "Demandez votre devis gratuit pour le remplacement ou la réparation de pare-brise. Intervention à domicile dans l'Hérault et le Gard, 7j/7 de 9h à 19h.",
+  alternates: { canonical: "/contact" },
 };
 
 interface InfoCardProps {
@@ -22,8 +23,12 @@ function InfoCard({ icon: Icon, title, children }: InfoCardProps) {
         <Icon className="h-5 w-5 text-white" />
       </div>
       <div>
-        <h3 className="mb-1 text-2xl font-medium text-black md:text-3xl lg:text-4xl">{title}</h3>
-        <div className="text-base font-normal text-gray-dark md:text-lg">{children}</div>
+        <h3 className="mb-1 text-2xl font-medium text-black md:text-3xl lg:text-4xl">
+          {title}
+        </h3>
+        <div className="text-base font-normal text-gray-dark md:text-lg">
+          {children}
+        </div>
       </div>
     </div>
   );
@@ -40,7 +45,7 @@ export default function ContactPage() {
             <div className="relative mt-10 aspect-4/3 overflow-hidden rounded-2xl lg:mt-0 lg:aspect-auto lg:w-full lg:max-w-[50%]">
               <Image
                 src="/vitre.jpg"
-                alt="Remplacement de pare-brise EDEN GLASS"
+                alt="Remplacement de pare-brise Eden Glass"
                 fill
                 className="object-cover"
                 priority

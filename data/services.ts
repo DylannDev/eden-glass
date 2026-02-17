@@ -67,8 +67,7 @@ export const services: Service[] = [
     title: "Remplacement de Pare-Brise",
     description:
       "Remplacement complet pour tous véhicules, à domicile ou sur votre lieu de travail. Verres homologués et garantie à vie.",
-    metaTitle:
-      "Remplacement Pare-Brise Montpellier - Devis Gratuit | Eden Glass",
+    metaTitle: "Remplacement Pare-Brise Montpellier - Devis Gratuit",
     metaDescription:
       "Remplacement de pare-brise à Montpellier et dans l'Hérault. Intervention rapide 7j/7, franchise offerte jusqu'à 300€. Devis gratuit en ligne.",
     keywords: [
@@ -79,7 +78,7 @@ export const services: Service[] = [
     ],
     h1: "Remplacement de Pare-Brise à Montpellier",
     subtitle:
-      "Intervention rapide à domicile ou sur votre lieu de travail. Verres homologués, garantie à vie et franchise offerte jusqu'à 300€*.",
+      "Intervention rapide à domicile ou sur votre lieu de travail. Verres homologués, garantie à vie et franchise offerte jusqu'à 300€.",
     image: "/pare-brise.jpg",
     richTextContent: `
       <p>Votre pare-brise est fissuré ou présente un impact trop important pour être réparé ? <strong>Eden Glass</strong> vous propose un service de remplacement de pare-brise professionnel à Montpellier et dans toute la région de l'Hérault. Notre équipe intervient rapidement, à domicile ou sur votre lieu de travail, pour vous garantir une prestation de qualité sans contrainte.</p>
@@ -116,7 +115,7 @@ export const services: Service[] = [
         <li><strong>Pare-brise avec caméra ADAS</strong> : 500€ à 900€</li>
         <li><strong>Pare-brise premium (acoustique, HUD)</strong> : 600€ à 1200€</li>
       </ul>
-      <p><strong>Bonne nouvelle :</strong> si vous êtes assuré bris de glace, votre assurance prend généralement en charge l'intégralité du remplacement. Nous pratiquons le tiers-payant : aucune avance de frais. Franchise offerte jusqu'à 300€*.</p>
+      <p><strong>Bonne nouvelle :</strong> si vous êtes assuré bris de glace, votre assurance prend généralement en charge l'intégralité du remplacement. Nous pratiquons le tiers-payant : aucune avance de frais. franchise offerte jusqu'à 300€.</p>
 
       <h2>Nos garanties qualité</h2>
       <ul>
@@ -144,7 +143,7 @@ export const services: Service[] = [
     title: "Réparation d'Impact",
     description:
       "Réparation rapide en 30 minutes pour les impacts jusqu'à 2,5 cm. Évitez le remplacement complet de votre pare-brise.",
-    metaTitle: "Réparation Impact Pare-Brise Montpellier - 30 min | Eden Glass",
+    metaTitle: "Réparation Impact Pare-Brise Montpellier - 30 min",
     metaDescription:
       "Réparation d'impact sur pare-brise à Montpellier. Intervention en 30 minutes, 100% pris en charge par l'assurance. Devis gratuit.",
     keywords: [
@@ -219,7 +218,7 @@ export const services: Service[] = [
     title: "Remplacement Vitre de Voiture",
     description:
       "Vitres latérales, custodes, déflecteurs : nous remplaçons tous les vitrages de votre véhicule avec des joints d'origine.",
-    metaTitle: "Remplacement Vitre Voiture Montpellier | Eden Glass",
+    metaTitle: "Remplacement Vitre Voiture Montpellier",
     metaDescription:
       "Remplacement de vitre de voiture à Montpellier : vitres latérales, custodes, déflecteurs. Intervention rapide, devis gratuit.",
     keywords: [
@@ -298,7 +297,7 @@ export const services: Service[] = [
     title: "Remplacement Lunette Arrière",
     description:
       "Remplacement de lunette arrière avec ou sans dégivreur. Démontage soigné des habillages et étanchéité garantie.",
-    metaTitle: "Remplacement Lunette Arrière Montpellier | Eden Glass",
+    metaTitle: "Remplacement Lunette Arrière Montpellier",
     metaDescription:
       "Remplacement de lunette arrière à Montpellier. Avec ou sans dégivreur, étanchéité garantie. Intervention rapide, devis gratuit.",
     keywords: ["lunette arrière", "vitre arrière voiture"],
@@ -380,7 +379,7 @@ export const services: Service[] = [
     title: "Calibrage Caméra ADAS",
     description:
       "Recalibrage professionnel des systèmes d'aide à la conduite après chaque remplacement de pare-brise.",
-    metaTitle: "Calibrage Caméra ADAS Montpellier | Eden Glass",
+    metaTitle: "Calibrage Caméra ADAS Montpellier",
     metaDescription:
       "Calibrage caméra ADAS après remplacement de pare-brise à Montpellier. Équipement professionnel.",
     keywords: ["calibrage adas", "caméra pare-brise"],
@@ -476,14 +475,14 @@ export const services: Service[] = [
     shortTitle: "Prise en charge assurance",
     title: "Prise en Charge Assurance",
     description:
-      "Gestion complète de votre dossier, tiers-payant sans avance de frais. Franchise offerte jusqu'à 300€*.",
-    metaTitle: "Prise en Charge Assurance Pare-Brise | Eden Glass",
+      "Gestion complète de votre dossier, tiers-payant sans avance de frais. franchise offerte jusqu'à 300€.",
+    metaTitle: "Prise en Charge Assurance Pare-Brise",
     metaDescription:
       "Gestion complète de votre dossier assurance pare-brise. Tiers-payant, franchise offerte jusqu'à 300€.",
     keywords: ["assurance pare-brise", "franchise offerte"],
     h1: "Prise en Charge Assurance Pare-Brise",
     subtitle:
-      "Gestion complète, tiers-payant et franchise offerte jusqu'à 300€*.",
+      "Gestion complète, tiers-payant et franchise offerte jusqu'à 300€.",
     image: "/assurance.jpg",
     richTextContent: `
       <p>Votre pare-brise est endommagé et vous ne savez pas comment procéder avec votre assurance ? <strong>Eden Glass</strong> simplifie toutes vos démarches. Nous prenons en charge <strong>100% de votre dossier assurance</strong> et pratiquons le <strong>tiers-payant</strong> : vous n'avez rien à avancer. En prime, nous offrons votre franchise jusqu'à 300€*.</p>
@@ -629,8 +628,7 @@ export const citiesData: CityData[] = [
           "La D986 est l'un des axes les plus exposés aux projections de gravillons dans le secteur de Lattes. Nous pouvons généralement intervenir sous 24h à votre domicile ou sur votre lieu de travail à Lattes, y compris à Port Ariane ou Maurin.",
       },
       {
-        question:
-          "Proposez-vous des interventions le week-end à Lattes ?",
+        question: "Proposez-vous des interventions le week-end à Lattes ?",
         answer:
           "Oui, nous intervenons 7j/7 à Lattes, y compris le samedi et le dimanche. C'est particulièrement pratique pour les résidents qui travaillent en semaine et ne peuvent pas se libérer en journée.",
       },
@@ -663,16 +661,10 @@ export const citiesData: CityData[] = [
       "Les entreprises de la zone de Rieucoulon nous font régulièrement confiance pour l'entretien de leurs flottes. Nous proposons des interventions groupées pour les professionnels et des horaires adaptés aux contraintes des entreprises.",
     localContext:
       "Saint-Jean-de-Védas se situe à la croisée de deux autoroutes majeures du sud de la France : l'A9 vers l'Espagne et l'A750 vers le Larzac et Lodève. Ce noeud routier génère un trafic poids-lourds et VL considérable, avec des projections de gravillons accentuées par les travaux quasi permanents de réaménagement des échangeurs. La zone commerciale de Rieucoulon, très fréquentée, concentre également de nombreux stationnements exposés aux débris routiers.",
-    nearbyCities: [
-      "lattes",
-      "juvignac",
-      "laverune",
-      "perols",
-    ],
+    nearbyCities: ["lattes", "juvignac", "laverune", "perols"],
     faq: [
       {
-        question:
-          "Intervenez-vous dans la zone d'activité de Rieucoulon ?",
+        question: "Intervenez-vous dans la zone d'activité de Rieucoulon ?",
         answer:
           "Absolument, la zone de Rieucoulon est l'un de nos secteurs d'intervention les plus fréquents à Saint-Jean-de-Védas. Nous nous déplaçons directement sur le parking de votre entreprise pour un remplacement ou une réparation, sans que vos salariés aient à se déplacer.",
       },
@@ -771,12 +763,7 @@ export const citiesData: CityData[] = [
       "Nous intervenons régulièrement dans les différents quartiers de Castelnau : le centre historique avec ses rues étroites, la zone moderne de l'Aube Rouge, ou encore le secteur résidentiel de la Pompignane. Notre proximité avec Montpellier nous permet d'être sur place en quelques minutes.",
     localContext:
       "Castelnau-le-Lez est la deuxième commune la plus peuplée de la métropole et l'une des plus densément urbanisées. L'avenue de l'Europe, véritable colonne vertébrale de la ville, supporte un trafic pendulaire massif vers Montpellier chaque matin et soir. Les chantiers permanents liés à l'extension du tramway et à la densification urbaine du secteur Sablassou-Aube Rouge génèrent quantité de poussières et de gravillons qui fragilisent les vitrages automobiles.",
-    nearbyCities: [
-      "le-cres",
-      "jacou",
-      "clapiers",
-      "lattes",
-    ],
+    nearbyCities: ["le-cres", "jacou", "clapiers", "lattes"],
     faq: [
       {
         question:
@@ -879,16 +866,10 @@ export const citiesData: CityData[] = [
       "Nous intervenons régulièrement au Crès, tant auprès des particuliers que des entreprises de la zone d'activité. Notre proximité géographique nous permet de proposer des délais d'intervention très courts pour tous les résidents de la commune.",
     localContext:
       "Le Crès se situe sur l'axe est de la métropole, traversé par la D112 qui relie Montpellier à Castries et au-delà vers Nîmes. Ce corridor de circulation très dense, ponctué de nombreux ronds-points, est l'un des plus fréquentés par les navetteurs de l'est montpelliérain. Les zones de ralentissement et d'accélération autour des giratoires projettent régulièrement des gravillons, et les véhicules garés dans la zone d'activité sont également exposés aux débris portés par le mistral.",
-    nearbyCities: [
-      "castelnau-le-lez",
-      "jacou",
-      "clapiers",
-      "lunel",
-    ],
+    nearbyCities: ["castelnau-le-lez", "jacou", "clapiers", "lunel"],
     faq: [
       {
-        question:
-          "Intervenez-vous dans la zone d'activité du Crès ?",
+        question: "Intervenez-vous dans la zone d'activité du Crès ?",
         answer:
           "Oui, la zone d'activité du Crès est un secteur où nous intervenons fréquemment. Nous pouvons nous déplacer directement sur le parking de votre entreprise pour une réparation d'impact ou un remplacement de pare-brise, sans que vous ayez à interrompre votre journée de travail.",
       },
@@ -928,12 +909,7 @@ export const citiesData: CityData[] = [
       "Notre équipe connaît parfaitement Jacou et ses accès parfois délicats. Nous intervenons à domicile dans tous les quartiers de la commune, du centre-ville aux zones plus résidentielles en périphérie.",
     localContext:
       "Jacou est une petite commune résidentielle prisée pour son calme et ses espaces verts, notamment le parc Bocaud. Cependant, les routes communales étroites qui relient Jacou à Clapiers, Le Crès et Castelnau-le-Lez sont bordées de végétation et de talus qui déversent cailloux et graviers sur la chaussée, surtout après les épisodes de pluie méditerranéenne. Les croisements serrés avec les véhicules en sens inverse projettent régulièrement des petites pierres sur les pare-brises.",
-    nearbyCities: [
-      "clapiers",
-      "le-cres",
-      "castelnau-le-lez",
-      "lattes",
-    ],
+    nearbyCities: ["clapiers", "le-cres", "castelnau-le-lez", "lattes"],
     faq: [
       {
         question:
@@ -948,8 +924,7 @@ export const citiesData: CityData[] = [
           "Oui, notre véhicule d'intervention est adapté aux rues étroites et aux impasses. Nous connaissons bien la configuration de Jacou et ses voies résidentielles parfois difficiles d'accès. Nous pouvons intervenir chez vous sans problème.",
       },
       {
-        question:
-          "Y a-t-il un surcoût pour une intervention à Jacou ?",
+        question: "Y a-t-il un surcoût pour une intervention à Jacou ?",
         answer:
           "Non, nos tarifs sont identiques quelle que soit la commune d'intervention dans la métropole montpelliéraine. Le déplacement à Jacou est inclus dans notre prestation, que ce soit pour une réparation d'impact ou un remplacement complet de pare-brise.",
       },
@@ -961,12 +936,7 @@ export const citiesData: CityData[] = [
     department: "34",
     population: "5 500",
     cluster: "metropole",
-    mainDistricts: [
-      "Centre",
-      "La Plaine",
-      "Bel Air",
-      "Zone de Fontcaude",
-    ],
+    mainDistricts: ["Centre", "La Plaine", "Bel Air", "Zone de Fontcaude"],
     nearbyHighways: ["D65", "D145", "Route de Montferrier"],
     specificRisks:
       "La proximité du Pic Saint-Loup et les routes de garrigue peuvent projeter des cailloux sur les pare-brises, surtout après les épisodes pluvieux.",
@@ -982,12 +952,7 @@ export const citiesData: CityData[] = [
       "Nous connaissons bien les spécificités de Clapiers et de ses environs. Que vous habitiez près du centre ou dans les zones plus rurales vers Montferrier, nous intervenons rapidement pour réparer ou remplacer votre vitrage endommagé.",
     localContext:
       "Clapiers est la porte d'entrée vers la garrigue montpelliéraine et les contreforts du Pic Saint-Loup. Les habitants empruntent quotidiennement des routes sinueuses bordées de chênes verts et de pierre calcaire, où les cailloux dégagés par le ruissellement après les orages cévenols se retrouvent régulièrement sur la chaussée. Le secteur de Fontcaude et la route de Montferrier sont particulièrement exposés à ces projections naturelles.",
-    nearbyCities: [
-      "jacou",
-      "le-cres",
-      "castelnau-le-lez",
-      "lattes",
-    ],
+    nearbyCities: ["jacou", "le-cres", "castelnau-le-lez", "lattes"],
     faq: [
       {
         question:
@@ -996,8 +961,7 @@ export const citiesData: CityData[] = [
           "Les routes de garrigue vers le Pic Saint-Loup sont malheureusement très exposées aux projections de cailloux. Contactez-nous rapidement : si l'impact est petit, nous pouvons le réparer en 30 minutes à votre domicile à Clapiers. Si la fissure s'est étendue, nous remplacerons votre pare-brise sur place.",
       },
       {
-        question:
-          "Intervenez-vous dans le quartier de Fontcaude à Clapiers ?",
+        question: "Intervenez-vous dans le quartier de Fontcaude à Clapiers ?",
         answer:
           "Oui, nous intervenons dans tous les quartiers de Clapiers, y compris Fontcaude, Bel Air et La Plaine. Le secteur de Fontcaude, proche de la garrigue, est d'ailleurs une zone où les impacts sont fréquents en raison des graviers sur la chaussée.",
       },
@@ -1036,12 +1000,7 @@ export const citiesData: CityData[] = [
       "Même dans les communes plus éloignées comme Lavérune, Eden Glass assure un service de proximité. Nous intervenons à domicile pour éviter à nos clients de se déplacer avec un pare-brise endommagé, ce qui peut être dangereux et verbalisable.",
     localContext:
       "Lavérune est un village viticole niché entre les domaines du château de l'Engarran et les coteaux de Pignan. Les petites départementales qui sillonnent les vignes (D5, D27) sont fréquemment recouvertes de terre et de gravillons charriés par les engins agricoles, surtout pendant les périodes de vendange et de travail des sols. Ces routes étroites et sinueuses, empruntées quotidiennement par les résidents qui rejoignent Montpellier, sont propices aux impacts sur les pare-brises.",
-    nearbyCities: [
-      "saint-jean-de-vedas",
-      "juvignac",
-      "lattes",
-      "perols",
-    ],
+    nearbyCities: ["saint-jean-de-vedas", "juvignac", "lattes", "perols"],
     faq: [
       {
         question:
@@ -1050,8 +1009,7 @@ export const citiesData: CityData[] = [
           "Oui, les routes entre Lavérune, Pignan et Saussan sont parmi les plus gravillonnées de l'ouest montpelliérain, surtout pendant les périodes de travail dans les vignes. Les engins agricoles déposent de la terre et des cailloux sur la chaussée. Nous intervenons régulièrement à Lavérune pour ce type de dommage.",
       },
       {
-        question:
-          "Vous déplacez-vous jusqu'à Lavérune pour un simple impact ?",
+        question: "Vous déplacez-vous jusqu'à Lavérune pour un simple impact ?",
         answer:
           "Absolument. Que ce soit pour un petit impact ou un remplacement complet, nous nous déplaçons à Lavérune sans surcoût. La réparation d'un impact prend seulement 30 minutes et est entièrement prise en charge par votre assurance bris de glace, sans franchise.",
       },
@@ -1091,12 +1049,7 @@ export const citiesData: CityData[] = [
       "Eden Glass s'adapte à la saisonnalité de La Grande Motte. En période estivale, nous renforçons nos équipes pour garantir des interventions rapides aux résidents comme aux vacanciers. Propriétaires de résidences secondaires, nous intervenons également hors saison pour préparer votre véhicule avant l'été.",
     localContext:
       "La Grande Motte est une station balnéaire unique en France, célèbre pour son architecture pyramidale des années 1970 et sa fréquentation touristique massive en été. L'environnement littoral soumet les véhicules à une triple agression : le sel marin porté par les vents côtiers qui corrode les joints de pare-brise, le sable fin des plages qui provoque des micro-rayures, et le soleil intense qui accélère la propagation des fissures par dilatation thermique. En haute saison, le trafic sur la D62 depuis Lunel ou Palavas multiplie les risques d'impacts.",
-    nearbyCities: [
-      "le-grau-du-roi",
-      "lunel",
-      "perols",
-      "lattes",
-    ],
+    nearbyCities: ["le-grau-du-roi", "lunel", "perols", "lattes"],
     faq: [
       {
         question: "Intervenez-vous en haute saison touristique ?",
@@ -1145,16 +1098,10 @@ export const citiesData: CityData[] = [
       "Notre expertise en environnements marins fait la différence au Grau-du-Roi. Nous comprenons les contraintes des professionnels de la mer et des résidents exposés au climat méditerranéen. Intervention possible directement sur les parkings du port ou à votre domicile, même en haute saison touristique.",
     localContext:
       "Le Grau-du-Roi est une commune littorale aux conditions climatiques particulièrement rudes pour les vitrages automobiles. Située entre la Méditerranée et les étangs camarguais, la ville est balayée par des vents marins chargés de sel et de sable fin, notamment le marin d'est et le mistral. Les routes traversant les marais salants vers Aigues-Mortes sont recouvertes de cristaux de sel qui agissent comme autant de micro-projectiles. Les professionnels de la pêche et de la plaisance à Port-Camargue sont particulièrement touchés par cette corrosion saline permanente.",
-    nearbyCities: [
-      "la-grande-motte",
-      "lunel",
-      "nimes",
-      "perols",
-    ],
+    nearbyCities: ["la-grande-motte", "lunel", "nimes", "perols"],
     faq: [
       {
-        question:
-          "Intervenez-vous directement au port de Port-Camargue ?",
+        question: "Intervenez-vous directement au port de Port-Camargue ?",
         answer:
           "Oui, nous intervenons régulièrement à Port-Camargue, directement sur les parkings du port de plaisance. Les professionnels de la mer et les plaisanciers sont des clients fréquents, car l'environnement salin accélère la dégradation des vitrages. Nous nous adaptons à vos horaires, y compris tôt le matin avant l'embarquement.",
       },
@@ -1220,8 +1167,7 @@ export const citiesData: CityData[] = [
           "Les bretelles d'entrée et de sortie de l'A9 à Lunel sont effectivement des zones à risque élevé. Les véhicules qui décélèrent ou accélèrent projettent des gravillons accumulés sur les bandes d'arrêt d'urgence. La N113, qui passe en ville, est également très exposée au trafic poids-lourds générateur de projections.",
       },
       {
-        question:
-          "Intervenez-vous dans la zone commerciale Lunel 2000 ?",
+        question: "Intervenez-vous dans la zone commerciale Lunel 2000 ?",
         answer:
           "Oui, la zone commerciale Lunel 2000 est un lieu d'intervention fréquent pour nous. Les vastes parkings sont idéaux pour réaliser un remplacement de pare-brise. Vous pouvez nous laisser votre véhicule le temps de faire vos courses et le récupérer une fois l'intervention terminée.",
       },
@@ -1244,7 +1190,8 @@ export const citiesData: CityData[] = [
     nearbyHighways: ["A9", "A54", "N106", "N113", "D999"],
     specificRisks:
       "Grande agglomération avec un réseau routier dense et chargé. Les axes périphériques (rocade, entrées d'autoroute) et les zones en travaux fréquents sont propices aux projections de gravillons et débris.",
-    landmark: "les Arènes, la Maison Carrée et le centre commercial Ville Active",
+    landmark:
+      "les Arènes, la Maison Carrée et le centre commercial Ville Active",
     testimonial: {
       name: "Caroline D.",
       text: "J'habite à Nîmes et je craignais de devoir me rendre à Montpellier. Eden Glass s'est déplacé chez moi à Costières. Pare-brise changé en 2h, calibrage caméra inclus.",
@@ -1270,14 +1217,12 @@ export const citiesData: CityData[] = [
           "Nîmes étant à environ 50 minutes de notre base montpelliéraine, nous programmons généralement les interventions sous 24 à 48h. Pour les remplacements de pare-brise, nous optimisons nos tournées pour regrouper les interventions nîmoises et garantir les meilleurs délais possibles.",
       },
       {
-        question:
-          "Intervenez-vous dans tous les quartiers de Nîmes ?",
+        question: "Intervenez-vous dans tous les quartiers de Nîmes ?",
         answer:
           "Oui, nous couvrons l'ensemble de l'agglomération nîmoise : centre historique près des Arènes, Costières, Mas de Mingue, Chemin Bas d'Avignon, Route d'Arles, et même les communes périphériques comme Caissargues et Marguerittes. Nous nous déplaçons à votre domicile ou sur votre lieu de travail.",
       },
       {
-        question:
-          "Y a-t-il un surcoût pour une intervention à Nîmes ?",
+        question: "Y a-t-il un surcoût pour une intervention à Nîmes ?",
         answer:
           "Non, nos tarifs sont identiques que vous soyez à Nîmes ou à Montpellier. Le déplacement est inclus dans notre prestation. Avec la prise en charge assurance et notre franchise offerte jusqu'à 300 euros, vous n'avez généralement rien à débourser, où que vous soyez dans le Gard.",
       },
@@ -1323,24 +1268,60 @@ function getClusterSpecificSection(cityData: CityData): string {
 function getClusterBlogLinks(cluster: CityCluster): string {
   const links: Record<CityCluster, { slug: string; title: string }[]> = {
     metropole: [
-      { slug: "reparation-ou-remplacement-arbre-de-decision", title: "Réparation ou remplacement : comment décider ?" },
-      { slug: "routes-risque-herault-pare-brise", title: "Routes à risque dans l'Hérault" },
-      { slug: "que-faire-apres-impact-pare-brise", title: "Que faire après un impact sur votre pare-brise ?" },
+      {
+        slug: "reparation-ou-remplacement-arbre-de-decision",
+        title: "Réparation ou remplacement : comment décider ?",
+      },
+      {
+        slug: "routes-risque-herault-pare-brise",
+        title: "Routes à risque dans l'Hérault",
+      },
+      {
+        slug: "que-faire-apres-impact-pare-brise",
+        title: "Que faire après un impact sur votre pare-brise ?",
+      },
     ],
     littoral: [
-      { slug: "sel-marin-pare-brise-cote-mediterraneenne", title: "Le sel marin et votre pare-brise sur la côte" },
-      { slug: "preparer-pare-brise-ete-mediterraneen", title: "Préparer son pare-brise pour l'été méditerranéen" },
-      { slug: "grele-pare-brise-prevention-assurance", title: "Grêle et pare-brise : prévention et assurance" },
+      {
+        slug: "sel-marin-pare-brise-cote-mediterraneenne",
+        title: "Le sel marin et votre pare-brise sur la côte",
+      },
+      {
+        slug: "preparer-pare-brise-ete-mediterraneen",
+        title: "Préparer son pare-brise pour l'été méditerranéen",
+      },
+      {
+        slug: "grele-pare-brise-prevention-assurance",
+        title: "Grêle et pare-brise : prévention et assurance",
+      },
     ],
     "axe-a9": [
-      { slug: "nimes-montpellier-guide-navetteur", title: "Guide du navetteur Nîmes-Montpellier" },
-      { slug: "routes-risque-herault-pare-brise", title: "Routes à risque dans l'Hérault" },
-      { slug: "conduire-pare-brise-fissure-risques-amendes", title: "Conduire avec un pare-brise fissuré : risques et amendes" },
+      {
+        slug: "nimes-montpellier-guide-navetteur",
+        title: "Guide du navetteur Nîmes-Montpellier",
+      },
+      {
+        slug: "routes-risque-herault-pare-brise",
+        title: "Routes à risque dans l'Hérault",
+      },
+      {
+        slug: "conduire-pare-brise-fissure-risques-amendes",
+        title: "Conduire avec un pare-brise fissuré : risques et amendes",
+      },
     ],
     gard: [
-      { slug: "nimes-montpellier-guide-navetteur", title: "Guide du navetteur Nîmes-Montpellier" },
-      { slug: "assurance-bris-de-glace-guide-complet", title: "Guide complet de l'assurance bris de glace" },
-      { slug: "cout-remplacement-pare-brise-tarifs", title: "Coût de remplacement d'un pare-brise : tous les tarifs" },
+      {
+        slug: "nimes-montpellier-guide-navetteur",
+        title: "Guide du navetteur Nîmes-Montpellier",
+      },
+      {
+        slug: "assurance-bris-de-glace-guide-complet",
+        title: "Guide complet de l'assurance bris de glace",
+      },
+      {
+        slug: "cout-remplacement-pare-brise-tarifs",
+        title: "Coût de remplacement d'un pare-brise : tous les tarifs",
+      },
     ],
   };
 
@@ -1422,7 +1403,7 @@ function generateGeolocalizedService(cityData: CityData): Service {
     shortTitle: `Pare-brise ${name}`,
     title: `Remplacement Pare-Brise ${name}`,
     description: `Remplacement de pare-brise à ${name} (${department}). Intervention rapide à domicile 7j/7, franchise offerte jusqu'à 300€. Devis gratuit.`,
-    metaTitle: `Remplacement Pare-Brise ${name} (${department}) - Devis Gratuit | Eden Glass`,
+    metaTitle: `Remplacement Pare-Brise ${name} (${department}) - Devis Gratuit`,
     metaDescription: `Remplacement de pare-brise à ${name} et alentours. Intervention à domicile 7j/7, franchise offerte jusqu'à 300€. Devis gratuit ☎️ 07 49 57 14 80`,
     keywords: [
       `remplacement pare-brise ${name.toLowerCase()}`,
@@ -1432,7 +1413,7 @@ function generateGeolocalizedService(cityData: CityData): Service {
       `réparation pare-brise ${name.toLowerCase()}`,
     ],
     h1: `Remplacement de Pare-Brise à ${name}, intervention à Domicile`,
-    subtitle: `Service professionnel 7j/7 à ${name}. Intervention rapide, franchise offerte jusqu'à 300€*.`,
+    subtitle: `Service professionnel 7j/7 à ${name}. Intervention rapide, franchise offerte jusqu'à 300€.`,
     image: "/pare-brise-3.jpg",
     city: name,
     isGeolocalized: true,
