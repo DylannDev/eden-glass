@@ -53,7 +53,7 @@ export default function ContactClientEmail({
             {/* Header */}
             <Section className="rounded-t-xl bg-brand px-4 py-8 text-center">
               <Img
-                src="https://eden-glass.vercel.app/logo-2.svg"
+                src="https://edenglass.fr/logo-2.svg"
                 alt="Eden Glass"
                 width={300}
                 height={70}
